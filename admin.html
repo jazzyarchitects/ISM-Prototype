@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Academic Section</title>
+<script type='text/javascript' src="scripts/jquery-min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-min.js"></script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>-->
+<script type='text/javascript' src='scripts/menu_jquery.js'></script>
+<script type="text/javascript" src="scripts/hoverIntent.js"></script>
+<script type="text/javascript" src="scripts/admin.js"></script>
+
+
+<link rel="shortcut icon" href="images/title_image.png" />
+<link rel="stylesheet" href="styles/jquery-dh-min.css" />
+<link rel="stylesheet" type="text/css" href="styles/admin.css" />
+
+<link rel="stylesheet" href="styles/css_bar.css" />
+
+</head>
+
+<body>
+
+
+
+<div id="notice" class="ui-dialog" title="Notice">
+<!--CSS Menu -->
+<center><div id='cssmenu' style="background:none;">
+<ul>
+   <li class='active'><a href='#' id="imp"><span>Important</span></a></li>
+   <li class="last"><a href='#' id="kudos"><span>Kudos</span></a></li>
+   <!--<li class="last"><a href="#"><span>Seminar</span></a></li>
+   <li class="last"><a href='#'><span>Exam</span></a></li>
+   <li class="last"><a href="#"><span>Notices</span></a></li>
+   <li class="last"><a href='#'><span>Vacancy</span></a></li>
+   <li class="last"><a href="#"><span>Others</span></a></li>-->
+</ul>
+</div></center>
+<!--of id cssmenu-->
+<!--
+<form id="select_notice" name="select_notice">
+Category: <select id="drop">
+<option id="important-notice" value="i">Important</option>
+<option id="kudos-notice" value="k">Kudos</option>
+</select>
+</form>-->
+<!--Important Notice-->
+<font size="-1"><div id="notice_imp">
+
+<h3 align="center"><br /><br />Important</h3>
+<ol>
+	<li><a href="http://www.ismdhanbad.ac.in/noticeboard/tender/EOI-Swimming-Pool.pdf" target="_blank">Invitation for Expression of Interest of Swimming Pool in ISM</a></li>
+    <li><a href="http://ismdhanbad.ac.in/course/cc/MATLAB_CERTIFICATE_COURSE_NOTIFICATION.doc" target="_blank">CERTIFICATE COURSE on MATLAB Programming and its applications for ISM students and JRF during 7th April – 11th April, 2014 (9:00AM-5:00PM) Organized by Computer Centre</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/exam/Modified%20Mid%20Semester%20Exam%20Schedule%20Winter%20Sem%202013-14.pdf" target="_blank">Modified mid semester examination schedule</a></li>
+    <li>THE LAST DATE FOR RECEIVING APPLICATION FORM FOR MBA ADMISSION, SESSION 2014-16 HAS BEEN EXTENDED TILL MARCH 21, 2014 (5 PM)</li>
+    <li><a href="http://www.examinationonline.in/ismmscmphil/">On Line Application for MSc/MScTech and MPhil</a></li>
+    <li><a href="http://www.examinationonline.in/ISMMTech/">On Line Application for M.Tech. 2014</a></li>
+    <li><a href="#" onclick="show_phdjrf()">On Line Application for JRF 2014</a></li>
+    <li><a href="https://ismdhanbad.ac.in/openings-ism-regular/view.php">Corrigendum to non-faculty posts advt dated 27.1.2014</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/Time-Schedule-SAC-Entry.pdf" target="_blank">Time Schedule of SAC Entry</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/EOI-MESS.pdf" target="_blank">Invitation for Expression of Interest for providing Mess Services in ISM Hostels</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/course/ei/SECOND_Certificate_Course_Brochure_Coloured_Marking.pdf" target="_blank">A Short Term Certificate Course on ADVANCED ANALOG SIGNAL PROCESSING AND GENERATING CIRCUITS will be organized by the Department of Electronics Engineering during 24-28 March, 2014</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/EOI-rg-5.2.2014.pdf" target="_blank">ISM needs Consultant(s) / Consultant Agency preferably from Govt. organization(s) and Academic Institution(s) like IITs for third party quality&nbsp;control (TPQC) for ongoing construction projects (civil &amp; electrical work)</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/admissions/2014/CA-Notice.doc" target="_blank">Admission Announcement 2014-15 in M.Sc./M.Sc.Tech/M.Phil/M.Tech. and Ph.D. programmes</a></li>
+    
+</ol>
+</div>
+
+<!--Kudos-->
+<div id="notice_kudos"><br /><br />
+<h3 align="center">Kudos</h3>
+<ol>
+	<li><a href="http://www.ismdhanbad.ac.in/depart/geophysics/AGP-SM-AWARD.JPG" target="_blank">Dr. Saumen Maiti, Assistant Professor, Department of Applied Geophysics has received "Krishnan Gold Medal" and 'Citation" for the year 2013 during the 50th Annual Convention of Indian Geophysical Union (IGU) on 8th January 2014 at National Geophysical Research Institute (NGRI), Hyderabad.<br /></a></li>
+    <li><a href="#">Dr. Saurabh Datta Gupta (Research SCholar , AGP) has won 2nd best Ph.D Research Award in the "American Geophysical Union and Indian Geophysical Union Research Students' Session" organised by Indian Geophysical Union on Jan 11, 2014 at NGRI, Hyderabad.<br /></a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/MEAI_Award.jpg" target="_blank">Dr A K Mishra , Dept. of Mining Engg , received Abheraj Baldota Memorial Gold Medal Award – 2012 (Young Mining Engineer of the year) from the Mining Engineering Association of India for the Outstanding contribution to the Mining Industry at Hyderabad on 23/06/2013.<br /></a></li>
+    <li><a href="#">Prof Kampan Mukherjee has been awarded Lifetime Achievement in Operations Management by Society of Operations Management (SOM). The award was conferred on Prof Mukherjee during the Interantional Conference on Operations Management held at IIT Delhi, organised by SOM in collaboration with IIT Delhi, IIM Lucknow and Grand Valley State University, USA during 21st December - 23rd December, 2012<br /></a></li>
+    <li><a href="http://www.seg.org/web/annual-meeting-2012/press/news/challenge-bowl" target="_blank">Mr. Debanjan Datta, Final Year 5 year Integrated M. Sc. Tech. (Applied Geophysics) won second prize IN SEG CHALLENGE BOWL AT LAS VEGAS organized by SEG, USA<br /></a></li>
+</ol>
+</div></font>
+</div>
+
+
+
+
+
+
+
+
+
+<!--Feedback Section-->
+<div id="black_screen">
+</div>
+
+<div id="feedback_form">
+
+<!--Feed back form here-->
+<h1 align="center">Please Give Your Feedback</h1>
+
+<form id="feedback" method="post" name="fb" action="php/feedback.php">
+<table border="0px" id="form_holder">
+	<tr><td><Label for="name">Name<font color="#FF0000">*</font></Label></td><td><input type="text" size="24" width="100%" required="required" name="fb_name" /></td></tr>
+    <tr><td><label for "email">Email ID</label></td><td><input type="text" size="24" width="100%" name="fb_email" /></td></tr>
+    <tr><td><label for="cooments">Comments<font color="#FF0000">*</font></label></td><td><textarea rows="10" required="required" name="fb_feedback"></textarea></td></tr>
+    <tr height="2px"></tr>
+    <tr><td>&nbsp;</td><td><button type="submit" class="fbf_but">Submit</button><button type="reset" class="fbf_but">Clear</button></td></tr>
+    
+</table>    
+</form>
+
+</div>
+
+<div id="top_ribbon">
+<!--<div id="top_ribbon_expand" style="top:10%;">-->
+<img src="images/logo_big.png" height="100%" align="top" style="position:absolute; left:1%;" />
+<!--<div id="hindi_name" class="top_written" style="position:absolute; left:18%;">-->
+<div id="text" style="position:absolute; left:0%; width:100%; top:10%;" >
+<font size="+2">
+<center>
+भारतीय खनि विध्यापीठ<br />
+INDIAN SCHOOL OF MINES
+</center>
+</font>
+</div>
+<img src="images/logo_big.png" height="100%" align="top" style="position:absolute; right:1%;" />
+<!--</div>-->
+</div>
+
+
+
+
+<div id="left_notice" class="scrollbar" style="float:left;">
+<div id="accordion" style="position:absolute; top:8%;">
+	<h3 onclick="window.location='index.html'">Home</h3><div></div>
+    <h3>Academic Administration</h3>
+    <div>
+    	  	<div id="acad_coun"><a href="#"><center><p>Academic Council</p></center></a></div>
+            <div id="res_coun"><a href="#"><center><p>Research Council</p></center></a></div>
+            <div id="deans"><a href="#"><center><p>Deans</p></center></a></div>
+            <div id="pce"><a href="#"><center><p>PCE</p></center></a></div>
+            <div id="asso_dean"><a href="#"><center><p>Assiciate Deans</p></center></a></div>
+            <div id="hod"><a href="#"><center><p>HODs</p></center></a></div>
+            <div id="lib"><a href="#"><center><p>Librarians</p></center></a></div>
+   </div>  
+   <h3>General Administration</h3>
+   <div>
+   			<div id="reg"><a href="#"><center><p>Registrar</p></center></a></div>
+   			<div id="acad_sec"><a href="#"><center><p>Academics Section</p></center></a></div>
+   			<div id="acc_sec"><a href="#"><center><p>Accounts Section</p></center></a></div>
+   			<div id="estb_sec"><a href="#"><center><p>Establishment Section</p></center></a></div>
+   			<div id="store_sec"><a href="#"><center><p>Purchase &amp; Store Section</p></center></a></div>
+   			<div id="camp_admin"><a href="#"><center><p>Campus Administration</p></center></a></div>
+   			<div id="camp_main"><a href="#"><center><p>Campus Maintainence</p></center></a></div>
+   </div>
+   <h3 id="hostel_admin">Hostel Administration</h3>
+</div>
+<div id="notice_toggle">
+	<form id="notice_check"><input type="checkbox" checked="checked" id="check_notice" /><a href="#" id="check">Show Notice Box</a></form>
+</div>
+
+</div>
+</div>
+
+<div id="frame_it">
+<iframe src="pdfs/acad_mem.pdf" style="height:100%; width:100%;" scrolling="auto" id="frame"></iframe>
+</div>
+
+<div id="bottom_ribbon" class="allow-here"> 
+<img src="images/bottom_ribbon_arrow.png" style="position:absolute; height:100%; left:48%; z-index:999; opacity:0.6;" id="bottom_popout" />
+<!--<img src="images/right_popout_arrow.png" id="lower_ribbon_expand" style="position:absolute; left:50%; height:100%; width:auto; transform:rotate(90);" />-->
+<marquee direction="right" behavior="alternate" bgcolor="" style="position:absolute; width:90%; height:100%;" id="lower_ribbon_expand"><font face="Lucida Sans Unicode, Lucida Grande, sans-serif">Details <small><small>(For best experience use Google Chrome)</small></small></font></marquee><div id="copyright" style="position:absolute; right:1%;">&copy;Jazzy-Architects</div>
+<span id="written_expanded">
+<div id="contact_bottom" class="bottom_details" style="position:absolute; width:20%; padding-left:2%;">
+<h2>Contact Us</h2>
+Indian School of Mines<br />
+Dhanbad – 826004, Jharkhand, India<br />
+Phone : +91-326- 2235001-2235004,<br />
+Fax : +91-326-2296563<br />
+<a href="http://ismdhanbad.ac.in/about/TD.pdf" target="_blank" style="color:white;">Complete Telephone Directory</a>
+</div>
+<div id="weather" style="position:absolute; left:25%; width:auto; height:100%; top:25%;">
+<p style="display: block !important; width: 160px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://weathertemperature.com/forecast/?q=Dhanbad,Jharkhand,India" title="Dhanbad, Jharkhand, India Weather Forecast" onclick="this.target='_blank'"><img src="http://widget.addgadgets.com/weather/v1/?q=Dhanbad,Jharkhand,India&amp;s=2&amp;u=1" alt="Weather temperature in Dhanbad, Jharkhand, India" width="100%" height="100%" style="border:0" /></a><br /></p>
+</div>
+<div id="feedback" style="position:absolute; right:0%; width:auto; height:100%; top:25%; padding-right:2%;"><center>
+<a href="#" id="feedback_link" style="color:#FFF">Feedback</a><br /><br />
+
+<a href="http://mail.ismdhanbad.ac.in/bizmail/login" target="_blank" style="color:#FFF">Email</a>
+</center>
+</div>
+</span>
+</div><!--Bottom Ribbon-->
+</body>
+
+</html>

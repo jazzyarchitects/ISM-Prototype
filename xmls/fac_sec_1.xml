@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<faculty>
+	<prof>
+		<image>images/faculty/f1/akm.jpg</image>
+		<name>A.K. Mukhopadhyay</name>
+		<post>Proffesor</post>
+		<email>akm_emm@yahoo.co.in</email>
+		<phone>+91-326-2296563</phone>
+		<mobile></mobile>
+		<qualification>B Tech(Mining Machinery Engg.) M Tech(Mining Machinery Engg.) Ph.D. (Mining Machinery Engg.)</qualification>
+		<specialization>Mining Machinery; Material Handling; Industrial Machine Vibration and Noise Measurement and Analysis. </specialization>
+		<research> Industrial Machine Vibration and Noise Measurement and Analysis; Material Handling and Comminution Equipment Design, Selection and Layouts in Plants. </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_akmukhopadhyay.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_akmukhopadhyay.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_akmukhopadhyay.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akp.jpg</image>
+		<name>A.K. Pathak</name>
+		<post>Proffesor &amp; HOD</post>
+		<email>akhilendra_pathak@yahoo.co.in</email>
+		<phone>+91-326-2206312</phone>
+		<mobile></mobile>
+		<qualification> M.Sc.(Physical Chemistry), Ph.D(University of Allahabad), M.Tech. ( Petroleum Engg.), M.N.A.Sc. (Allahabad)</qualification>
+		<!--<specialization> Oil &amp; Gas well Drilling Technology, Chemical Engineering Thermodynamics and Offshore Structures &amp; Design. </specialization>-->
+		<research>Surface/ interfacial activity of Crude Oil and its fractions, Horizontal /Slanted Well Technology.</research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_akpathak.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_akpathak.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_akpathak.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akv.jpg</image>
+		<name>A.S. Venkatesh</name>
+		<post>Proffesor</post>
+		<email>asvenkatesh@hotmail.com  </email>
+		<phone> +91-326-2235466 </phone>
+		<mobile></mobile>
+		<qualification> M. Sc. (Andhra University), Ph. D (NGRI/AU)</qualification>
+		<specialization>  Ore Geology, Geochemistry, Mineral Exploration and Environmental Geology </specialization>
+		<research>Kumar, A, Venkatesh, A S, Ramesh Babu, P V and Nayak, S. (2012). Genetic Implications of rare uraninite and pyrite in quartz-pebble conglomerate from Sundargarh district of Orissa, Eastern India. (Accepted for publication in J Geological Society of India) (A Springer publication). </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_asvenkatesh.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_asvenkatesh.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_asvenkatesh.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/as.jpg</image>
+		<name>A. Sarkar</name>
+		<post>Proffesor</post>
+		<email>a_sarkar_99@yahoo.com  </email>
+		<phone> +91-326-2235432 </phone>
+		<mobile>+91 9430335255 </mobile>
+		<qualification> M. Sc (IIT, KGP), Ph. D. (IIT, KGP)</qualification>
+		<specialization>  Organic Chemistry, Fly Ash Characterization and Utilization. </specialization>
+		<research>Fly Ash, Fly Ash Based Coatings and Dust suppression </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_asarkar.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_asarkar.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_asarkar.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akmi.jpg</image>
+		<name>A.K. Mishra</name>
+		<post>Associate Proffesor</post>
+		<email>arvmishra@yahoo.com </email>
+		<phone> +91-326-2235452 </phone>
+		<mobile></mobile>
+		<qualification> PhD (Mining Engineering) ISM, M Tech (Mining Engineering) ISM, PG Diploma in Ecology &amp; Environment Indian Institute of Ecology &amp; Environment, New Delhi B Tech (Mining Engineering) Govt. Engineering College, Raipur, Chhattisgarh, India</qualification>
+		<specialization> Drilling &amp; Blasting Technology, Rock Excavation Engineering, Geo-mechanics  </specialization>
+		<research>Drilling &amp; Blasting Technology, Rock Excavation Engineering, Geo-mechanics &amp; Explosives Engineering, Underground coal Mining methods, Open cut mining methods </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_akmishra.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_akmishra.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_akmishra.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/aks.jpg</image>
+		<name>A.K. Samanta</name>
+		<post>Proffesor</post>
+		<email>samanta.ak.che@ismdhanbad.ac.in</email>
+		<phone> +91-326-2235087 </phone>
+		<mobile> </mobile>
+		<qualification> Postdoctoral Fellow (University of Alberta, Canada), PhD &amp; M.Tech (IIT Kharagpur, India), B.Tech &amp; B.Sc (University of Calcutta, India)</qualification>
+		<specialization> Separation Processes, Chemical Engineering Thermodynamics, Plant Design and Fabrication, and Modeling and Simulation </specialization>
+		<research> Carbon Capture and Sequestration, Separation Processes, Gas Treating, Hot Gas Cleanup, Chemical Looping Combustion, Thermal Extraction of Coal, and Modeling &amp; Simulation </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_arunsamanta.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_arunsamanta.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_arunsamanta.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/ar.jpg</image>
+		<name>Abha Rani</name>
+		<post>Assistant Proffesor</post>
+		<email>ajayabha@yahoo.com  </email>
+		<phone> +91-326-2235492 </phone>
+		<mobile></mobile>
+		<qualification>Ph.D. (Mathematics)</qualification>
+		<specialization>  Computational Fluid Dynamics, Lamunar Free convection &amp; Heat Transfer Through Porous Medium  </specialization>
+		<research> Computational Fluid Dynamics, Lamunar Free convection &amp; Heat Transfer Through Porous Medium   </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_abha.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_abha.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_abha.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/abks.jpg</image>
+		<name>Abhay Kumar Singh</name>
+		<post>Assistant Proffesor</post>
+		<email>itbhu81@gmail.com</email>
+		<phone> +91-326-2235670  </phone>
+		<mobile></mobile>
+		<qualification>M.Sc (BHU), PhD (ITBHU), CSIR(JRF-NET), GATE</qualification>
+		<specialization>  Theory of Rings and Modules </specialization>
+		<research>Applied Algebra (Coding Theory and Cryptography) </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_abhay.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_abhay.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_abhay.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akus.jpg</image>
+		<name>Abhishek Kumar Singh</name>
+		<post>Assistant Proffesor</post>
+		<email>abhi.5700@gmail.com </email>
+		<phone> +91-326-2235118  </phone>
+		<mobile>+91-919572159264</mobile>
+		<qualification> B. Sc. (University of Allahabad), M.Sc. , M.Phil., Ph.D. (ISM Dhanbad)</qualification>
+		<specialization>Elastodynamics</specialization>
+		<research> Seismic waves propagation, Fracture mechanics, Algorithm Design and Analysis  </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_abhi5700.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_abhi5700.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_abhi5700.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/am.jpg</image>
+		<name>Ajay Mandal</name>
+		<post>Associate Proffesor</post>
+		<email>mandal_ajay@hotmail.com</email>
+		<phone>+91-326-223-5485</phone>
+		<mobile>+91-9431711017 </mobile>
+		<qualification>B.Sc. (Chemistry Hons.) Calcutta University, B.Tech. (Chemical Engineering) Calcutta University, M.ChE. (Chemical Engineering) Jadavpur University, Ph.D. (Chemical Engineering) IIT, Kharagpur</qualification>
+		<specialization>Natural Gas Engineering, Thermodynamics of Res. Fluids, EOR Techniques, Oil and Gas Plant Design</specialization>
+		<research>Fluid Mechanics and Multiphase Flow, Enhanced Oil Recovery Techniques, Gas Hydrates, Separation of oil from oil-in-water Emulsion</research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_ajay.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_ajay.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_ajay.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akb.jpg</image>
+		<name>Ajit Kumar Behura</name>
+		<post>Associate Proffesor</post>
+		<email>ajitbehura@gmail.com</email>
+		<phone>+91-326-2235499</phone>
+		<mobile>+91-9234604362</mobile>
+		<qualification> M.A. (HCU), Ph.D. (Hyderabad Central University), Post-Doctoral Research (IIT, Kharagpur), Degree on Professional Ethics (HCU)</qualification>
+		<specialization>Ethics and Philosophy of Action, Philosophy of Mind, Philosophy of Language Professional Ethics </specialization>
+		<research>Bioethics and Business Ethics, Philosophy of Man Classical and Contemporary India Philosophy </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_ajit.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_ajit.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_ajit.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akbh.jpg</image>
+		<name>Ajoy Kumar Bhaumik</name>
+		<post>Assistant Proffesor</post>
+		<email>ajoybhaumik@hotmail.com</email>
+		<phone>+91-326-223-5684 , +91-326-2296616</phone>
+		<mobile></mobile>
+		<qualification>M. Sc. (University of Calcutta) , Ph. D. (IIT, Kharagpur)</qualification>
+		<specialization>Micropaleontology, Paleoceanography, Paleoclimatology, Petroleum Geology </specialization>
+		<research> Application of micropaleontology in hydrocarbon exploration, Foraminifera in methane/stressful environment, Biostratigraphy </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_ajoy.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_ajoy.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_ajoy.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/aa.jpg</image>
+		<name>Aju Arvind</name>
+		<post>Assistant Proffesor</post>
+		<email>aaravind13@gmail.com</email>
+		<phone>+91-326-2235768</phone>
+		<mobile>+91-9431121114</mobile>
+		<qualification>M.A. (Mahatma Gandhi University) Ph. D (Mahatma Gandhi University)</qualification>
+		<specialization>Literary Theory, Cultural Studies </specialization>
+		<research>Popular Culture, Culture Studies, Gender Studies, Feminism</research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_ajuaravind.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_ajuaravind.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_ajuaravind.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/ap.jpg</image>
+		<name>Akhikesh Prasad</name>
+		<post>Associate Proffesor</post>
+		<email>apr_bhu@yahoo.com</email>
+		<phone>+91-326-2235666</phone>
+		<mobile>+91-9431711231</mobile>
+		<qualification>M. Sc., Ph.D.</qualification>
+		<specialization> Pure Mathematics</specialization>
+		<research>Pseudo-Differential Operators, Distribution Theory, Wavelets. </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_akhilesh.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_akhilesh.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_akhilesh.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akd.jpg</image>
+		<name>Alok Kumar Das</name>
+		<post>Assistant Proffesor</post>
+		<email>eralok@yahoo.co.in</email>
+		<phone>+91-0326-2235748</phone>
+		<mobile>+91-9471191234 </mobile>
+		<qualification>PhD &amp; M.Tech.(Mechanical Engg., IIT Kharagpur), B.E, (Production Engg) Government College of Technology, Coimbatore</qualification>
+		<specialization>Manufacturing Science and Engineering </specialization>
+		<research>Micro fabrication, Unconventional machining process, Laser processing of materials, Precision engineering </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_alokkumar.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_alokkumar.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_alokkumar.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/als.jpg</image>
+		<name>Alok Sinha</name>
+		<post>Assistant Proffesor</post>
+		<email>aloksinha11@yahoo.com</email>
+		<phone>+91-326-2235610</phone>
+		<mobile>+91-9471518560</mobile>
+		<qualification>BE -Civil Engineering (ZHCET, AMU, Aligarh) ME- Hydraulic Structures (ZHCET,AMU, Aligarh) PhD-Environmental Engineering (IIT Kanpur)</qualification>
+		<specialization>In-Situ Remediation of groundwater by ZVI Technology</specialization>
+		<research>Water and waste water treatment, Groundwater Remediation, Groundwater modeling, Fate and transport of Contaminant in surface and sub-surface environment, Solid Waste Management </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_alok.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_alok.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_alok.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/als.jpg</image>
+		<name>Alok Sinha</name>
+		<post>Assistant Proffesor</post>
+		<email>aloksinhaism@yahoo.com </email>
+		<phone>+91-326-2235610</phone>
+		<mobile>+91-9471518560</mobile>
+		<qualification>Ph. D</qualification>
+		<specialization>In-Situ Remediation of groundwater by ZVI Technology</specialization>
+		<research>Water and waste water treatment, Groundwater Remediation, Groundwater modeling, Fate and transport of Contaminant in surface and sub-surface environment, Solid Waste Management </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_alok.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_alok.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_alok.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/ac.jpg</image>
+		<name>Amares Chattopadhyay</name>
+		<post>Proffesor &amp; Dean (Acad.)</post>
+		<email> amares.c@gmail.com</email>
+		<phone>+91-326-2235230</phone>
+		<mobile></mobile>
+		<qualification> M.Sc, Ph.D. – Mathematics, Visva Bharati University</qualification>
+		<specialization>Mathematics </specialization>
+		<research>Elastodynamics</research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_amares.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_amares.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_amares.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/akve.jpg</image>
+		<name>Amit Kumar Verma</name>
+		<post>Assistant Proffesor</post>
+		<email>neurogeneticamit@gmail.com</email>
+		<phone>+91-326-2235462</phone>
+		<mobile>+91-7781012407</mobile>
+		<qualification>PhD (IIT-Bombay)</qualification>
+		<specialization> Rock Mechanics and Numerical Modeliing </specialization>
+		<research> Rock Mechanics and Ground Control, Coupled Numerical Modeling,CO2 Sequestration, Nuclear waste disposal, Enhanced Coal Bed Methane, slurry fracture injection, Slope Stability, Landslides and Tunneling </research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_vermaakme.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_vermaakme.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_vermaakme.pdf</cv>
+	</prof>
+	<prof>
+		<image>images/faculty/f1/ard.jpg</image>
+		<name>Amit Rai Dixit</name>
+		<post>Associate Proffesor</post>
+		<email>amitraidixit@gmail.com </email>
+		<phone>+91-326-2210028 </phone>
+		<mobile>+91-9430133003</mobile>
+		<qualification>Ph.D. (Mech. Engg.), M.Tech. (Production Engg.), B.Tech. (Mech. Engg.)</qualification>
+		<specialization>Production Management, Computer Aided Manufacturing, Manufacturing Processes. </specialization>
+		<research>Group Technology, Non-traditional Manufacturing process, Manufacturing system, Computer Integrated Manufacturin</research>
+		<notes>http://www.ismdhanbad.ac.in/cv/notes_amitrai.pdf</notes>
+		<publications>http://www.ismdhanbad.ac.in/cv/pub_amitrai.pdf</publications>
+		<cv>http://www.ismdhanbad.ac.in/cv/cv_amitrai.pdf</cv>
+	</prof>
+</faculty>
+	
+	
+	

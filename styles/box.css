@@ -1,0 +1,75 @@
+#acad_sec{
+	height:80%;
+}
+
+
+#acad_sec > h1
+{
+font-size:200%;
+text-align:center;
+color:#51B4BB;
+}
+
+#yoa > img
+{
+position:absolute;
+top:5%;
+left:2.5%;
+border-style:solid;
+border-width:0 20px 0 0;
+border-color: transparent;
+float:left;
+width:auto;
+height:90%;
+}
+
+#yoa > a > img{
+	width:10%;
+	height:auto;
+}
+
+#acad_sec1
+{
+position:absolute;
+font-weight: bold;
+background: -webkit-linear-gradient(180deg, #cebbfc, #ffffff); /* For Safari */
+background: -o-linear-gradient(180deg, #cebbfc, #ffffff); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(180deg, #cebbfc, #ffffff); /* For Firefox 3.6 to 15 */
+background: linear-gradient(180deg, #cebbfc, #ffffff);
+font-variant:small-caps;
+border-style:groove; 
+border-width:4px;
+width:90%;
+height:22.5%;
+box-shadow: 5px 5px 2px #908ef0;
+-webkit-border-radius:25px;
+-moz-border-radius:25px;
+border-radius:25px;
+padding:15px 0px 10px 25px;
+opacity:1;
+font-style:oblique;
+font-family: 'Trebuchet MS', Arial;
+}
+
+#acad_sec1 > div{
+	position:absolute;
+	top:2%;
+	height:100%;
+}
+
+
+#yoa
+{
+font-variant:normal;
+font-size:20px;
+background:none;
+height:100%;
+}
+
+#yoa > table{
+		position:absolute;
+		background:none;
+		left:25%;
+		top:0%;
+}
+	

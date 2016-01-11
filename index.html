@@ -1,0 +1,1360 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Indian School of Mines,Dhanbad</title>
+<script type='text/javascript' src="scripts/jquery-min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-min.js"></script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>-->
+<script src="scripts/jquery-touch.js"></script>
+<script src="scripts/hoverIntent.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/fac_ajax.js"></script>
+
+<!--
+<script type="text/javascript" src='http://www.localendar.com/js/PublishedIncludeMini.js'></script>
+<script language="javascript" src="scripts/test.js"></script>
+<script language="javascript" src="scripts/menu_jquery.js"></script>>-->
+<!--<script language="javascript" src="scripts/open_ani.js"></script>-->
+<!--<link rel="stylesheet" href="styles/background.css" />-->
+
+<link rel="shortcut icon" href="images/title_image.png" />
+<link rel="stylesheet" href="styles/css_bar.css" />
+<link rel="stylesheet" href="styles/jquery-dh-min.css" />
+<link rel="stylesheet" href="styles/box.css" />
+<link rel="stylesheet" href="styles/main.css" />
+<link rel="stylesheet" href="styles/depts.css" />
+</head>
+<!----------------------------------------------------------------------------------------------------------------->
+<body>
+<!--<div id="intro">All The Links in the Left Coloumn are draggable not clickable</div>-->
+<div id="loading" style="position:relative; top:0%; left:0%; width:100%; height:100%; z-index:500000;">Loading</div>
+<div id="notice" class="ui-dialog" title="Notice">
+<!--CSS Menu -->
+<center><div id='cssmenu' style="background:none;">
+<ul>
+   <li class='active'><a href='#' id="imp"><span>Important</span></a></li>
+   <li class="last"><a href='#' id="kudos"><span>Kudos</span></a></li>
+   <!--<li class="last"><a href="#"><span>Seminar</span></a></li>
+   <li class="last"><a href='#'><span>Exam</span></a></li>
+   <li class="last"><a href="#"><span>Notices</span></a></li>
+   <li class="last"><a href='#'><span>Vacancy</span></a></li>
+   <li class="last"><a href="#"><span>Others</span></a></li>-->
+</ul>
+</div></center>
+<!--of id cssmenu-->
+<!--
+<form id="select_notice" name="select_notice">
+Category: <select id="drop">
+<option id="important-notice" value="i">Important</option>
+<option id="kudos-notice" value="k">Kudos</option>
+</select>
+</form>-->
+<!--Important Notice-->
+<font size="-1"><div id="notice_imp">
+
+<h3 align="center"><br /><br />Important</h3>
+<ol>
+	<li><a href="http://www.ismdhanbad.ac.in/noticeboard/tender/EOI-Swimming-Pool.pdf" target="_blank">Invitation for Expression of Interest of Swimming Pool in ISM</a></li>
+    <li><a href="http://ismdhanbad.ac.in/course/cc/MATLAB_CERTIFICATE_COURSE_NOTIFICATION.doc" target="_blank">CERTIFICATE COURSE on MATLAB Programming and its applications for ISM students and JRF during 7th April – 11th April, 2014 (9:00AM-5:00PM) Organized by Computer Centre</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/exam/Modified%20Mid%20Semester%20Exam%20Schedule%20Winter%20Sem%202013-14.pdf" target="_blank">Modified mid semester examination schedule</a></li>
+    <li>THE LAST DATE FOR RECEIVING APPLICATION FORM FOR MBA ADMISSION, SESSION 2014-16 HAS BEEN EXTENDED TILL MARCH 21, 2014 (5 PM)</li>
+    <li><a href="http://www.examinationonline.in/ismmscmphil/">On Line Application for MSc/MScTech and MPhil</a></li>
+    <li><a href="http://www.examinationonline.in/ISMMTech/">On Line Application for M.Tech. 2014</a></li>
+    <li><a href="#" onclick="show_phdjrf()">On Line Application for JRF 2014</a></li>
+    <li><a href="https://ismdhanbad.ac.in/openings-ism-regular/view.php">Corrigendum to non-faculty posts advt dated 27.1.2014</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/Time-Schedule-SAC-Entry.pdf" target="_blank">Time Schedule of SAC Entry</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/EOI-MESS.pdf" target="_blank">Invitation for Expression of Interest for providing Mess Services in ISM Hostels</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/course/ei/SECOND_Certificate_Course_Brochure_Coloured_Marking.pdf" target="_blank">A Short Term Certificate Course on ADVANCED ANALOG SIGNAL PROCESSING AND GENERATING CIRCUITS will be organized by the Department of Electronics Engineering during 24-28 March, 2014</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/EOI-rg-5.2.2014.pdf" target="_blank">ISM needs Consultant(s) / Consultant Agency preferably from Govt. organization(s) and Academic Institution(s) like IITs for third party quality&nbsp;control (TPQC) for ongoing construction projects (civil &amp; electrical work)</a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/admissions/2014/CA-Notice.doc" target="_blank">Admission Announcement 2014-15 in M.Sc./M.Sc.Tech/M.Phil/M.Tech. and Ph.D. programmes</a></li>
+    
+</ol>
+</div>
+
+<!--Kudos-->
+<div id="notice_kudos"><br /><br />
+<h3 align="center">Kudos</h3>
+<ol>
+	<li><a href="http://www.ismdhanbad.ac.in/depart/geophysics/AGP-SM-AWARD.JPG" target="_blank">Dr. Saumen Maiti, Assistant Professor, Department of Applied Geophysics has received "Krishnan Gold Medal" and 'Citation" for the year 2013 during the 50th Annual Convention of Indian Geophysical Union (IGU) on 8th January 2014 at National Geophysical Research Institute (NGRI), Hyderabad.<br /></a></li>
+    <li><a href="#">Dr. Saurabh Datta Gupta (Research SCholar , AGP) has won 2nd best Ph.D Research Award in the "American Geophysical Union and Indian Geophysical Union Research Students' Session" organised by Indian Geophysical Union on Jan 11, 2014 at NGRI, Hyderabad.<br /></a></li>
+    <li><a href="http://www.ismdhanbad.ac.in/noticeboard/MEAI_Award.jpg" target="_blank">Dr A K Mishra , Dept. of Mining Engg , received Abheraj Baldota Memorial Gold Medal Award – 2012 (Young Mining Engineer of the year) from the Mining Engineering Association of India for the Outstanding contribution to the Mining Industry at Hyderabad on 23/06/2013.<br /></a></li>
+    <li><a href="#">Prof Kampan Mukherjee has been awarded Lifetime Achievement in Operations Management by Society of Operations Management (SOM). The award was conferred on Prof Mukherjee during the Interantional Conference on Operations Management held at IIT Delhi, organised by SOM in collaboration with IIT Delhi, IIM Lucknow and Grand Valley State University, USA during 21st December - 23rd December, 2012<br /></a></li>
+    <li><a href="http://www.seg.org/web/annual-meeting-2012/press/news/challenge-bowl" target="_blank">Mr. Debanjan Datta, Final Year 5 year Integrated M. Sc. Tech. (Applied Geophysics) won second prize IN SEG CHALLENGE BOWL AT LAS VEGAS organized by SEG, USA<br /></a></li>
+</ol>
+</div></font>
+</div>
+
+<!--Feedback Section-->
+<div id="black_screen">
+</div>
+
+<div id="feedback_form">
+
+<!--Feed back form here-->
+<h1 align="center">Please Give Your Feedback</h1>
+
+<form id="feedback" method="post" name="fb" action="php/feedback.php">
+<table border="0px" id="form_holder">
+	<tr><td><Label for="name">Name<font color="#FF0000">*</font></Label></td><td><input type="text" size="24" width="100%" required="required" name="fb_name" /></td></tr>
+    <tr><td><label for "email">Email ID</label></td><td><input type="text" size="24" width="100%" name="fb_email" /></td></tr>
+    <tr><td><label for="cooments">Comments<font color="#FF0000">*</font></label></td><td><textarea rows="10" required="required" name="fb_feedback"></textarea></td></tr>
+    <tr height="2px"></tr>
+    <tr><td>&nbsp;</td><td><button type="submit" class="fbf_but">Submit</button><button type="reset" class="fbf_but">Clear</button></td></tr>
+    
+</table>    
+</form>
+
+</div>
+
+
+
+
+<div id="top_ribbon">
+<!--<div id="top_ribbon_expand" style="top:10%;">-->
+<img src="images/logo_big.png" height="100%" align="top" style="position:absolute; left:1%;" />
+<!--<div id="hindi_name" class="top_written" style="position:absolute; left:18%;">-->
+<div id="text" style="position:absolute; left:0%; width:100%; top:10%;" >
+<font size="+2">
+<center>
+भारतीय खनि विध्यापीठ<br />
+INDIAN SCHOOL OF MINES
+</center>
+</font>
+</div>
+<img src="images/logo_big.png" height="100%" align="top" style="position:absolute; right:1%;" />
+<!--</div>-->
+</div>
+<!--<div id="time" style="position:absolute; right:0%; width:14%; height:3.90%; top:10%; color:#FFFFFF"></div></div>
+	<div id="disp_on_expand">
+		<div id="calenders">
+        <!--<script>
+  // Other settings you can customize for your site
+  			var lcPopupColor="rgba(230, 230, 230, .9)"; /* Try other values like: rgb(230,230,230), #b0c4de, yellow, etc */
+  			var lcPopupOutline="#333333";
+ 			var lcPopupCornerRadius=20; /* Set to 0 for square corners */
+			</script>
+        	<!-- Place this line where you would like the calendar to appear (in a <div>, table, etc) -->
+<!--			<script type="text/javascript" src='http://www.localendar.com/public/Jibin?include=Y&style=M5'></script>-->
+			
+		
+        
+	
+
+
+
+<!--Container-->
+<div id="container" class="allow-here"> 
+<div id="left_notice" class="scrollbar" style="float:left;">
+<div id="left_first" style="position:absolute; width:100%; background:#000; height:7.55%;">
+<font color="#FFFFFF">
+<p><center><font size="-1"><b><big><big><u>Drag</u></big></big> the titles into main area</b></font></center></p>
+<!--<p align="center">
+	<form name="site_type" id="site_type">
+    	<input type="radio" name="select_click" class="sel" id="select_click_d" checked="checked" value="drag_me" />Drag
+        <input type="radio" name="select_click" class="sel" id="select_click_c" value="click_me" />Click
+    </form>-->
+</p></font>
+</div>
+<div id="accordion" style="position:absolute; top:7.55%;">
+	<h3>Institute</h3>
+    <div>
+    	  	<div id="draggable_ism" class="ui-draggable draggable"><center><p>About Institute</p></center></div>
+            <div id="draggable_hostels" class="ui-draggable draggable"><center><p>Hostels</p></center></div>
+            <div id="draggable_reach" class="ui-draggable draggable"><center><p>How to reach</p></center></div>
+            <div id="draggable_placements" class="ui-draggable draggable"><center><p>Placements</p></center></div>
+    </div>
+    <h3>Administration</h3>
+    <div>
+    	<div id="draggable_chair" class="ui-draggable draggable"><center><p>Chairman &amp; Director</p></center></div>
+        <!--<div id="draggable_governing_body" class="ui-draggable draggable ad"><center><p>Governing Body</p></center></div>
+ 		<div id="draggable_acad-admin" class="ui-draggable draggable ad"><center><p>Acadamic Administration</p></center></div>
+        <div id="draggable_gen-admin" class="ui-draggable draggable ad"><center><p>General Administration</p></center></div>
+        <div id="draggable_hos-admin" class="ui-draggable draggable ad"><center><p>Hostel Administration</p></center></div> -->
+        <div id="draggable_all_admin" class="ui-draggable draggable ad"><center><p>Other Administrative Bodies</p></center></div>
+    </div>
+     <h3>Admissions</h3>
+     <div>
+    	<p>
+        	</p><div id="draggable_jee_info" class="ui-draggable draggable"><center><p>All Admissions</p></center></div>
+            <div id="draggable_fee_struct" class="ui-draggable draggable"><center><p>Fee Structure</p></center></div>
+            <!--<div id="draggable_btech" class="ui-draggable draggable"><center><p>B.Tech.</p></center></div>
+			<div id="draggable_mtech" class="ui-draggable draggable"><center><p>M.Tech.</p></center></div>
+            <div id="draggable_dual_deg" class="ui-draggable draggable"><center><p>Dual Degree</p></center></div>
+            <div id="draggable_msc" class="ui-draggable draggable"><center><p>M.Sc.</p></center></div>
+			<div id="draggable_msc_tech" class="ui-draggable draggable"><center><p>M.Sc.Tech.</p></center></div>
+			<div id="draggable_integrated_msc_mtech" class="ui-draggable draggable"><center><p>Integerated M.Sc./M.Tech.</p></center></div>
+			<div id="draggable_mba" class="ui-draggable draggable"><center><p>MBA</p></center></div>
+			<div id="draggable_mphil" class="ui-draggable draggable"><center><p>M.Phil.</p></center></div>
+			<div id="draggable_phd" class="ui-draggable draggable"><center><p>Ph.D.</p></center></div>-->
+        <p></p>
+    </div>
+    <h3>Academics</h3>
+    <div>
+    	<div id="draggable_programmes" class="ui-draggable draggable"><center><p>Programmes</p></center></div>
+        <div id="draggable_dept" class="ui-draggable draggable"><center><p>Departments</p></center></div>
+        <div id="draggable_acadamic_cal" class="ui-draggable draggable"><center><p>Acadamic Calender</p></center></div>
+        <div id="draggable_clib" class="ui-draggable draggable"><center><p>Central Library</p></center></div>  
+        <div id="draggable_research" class="ui-draggable draggable"><center><p><font size="-1">Research &amp; Consultancy</font></p></center></div>  
+        <div id="draggable_dsc" class="ui-draggable draggable"><center><p>D.Sc Awarded</p></center></div>
+        <div id="draggable_phd" class="ui-draggable draggable"><center><p>Ph.D Awarded</p></center></div>
+    </div>
+    <h3>People</h3>
+   	<div>
+    	<div id="draggable_faculty" class="ui-draggable draggable"><center><p>Faculty</p></center></div>
+        <div id="draggable_alumni" class="ui-draggable draggable"><center><p>Alumni</p></center></div>
+    </div>
+   <!--<h3><font size="3">Research &amp; Consultancy</font></h3>
+    <div>
+    	<div id="draggable_research" class="ui-draggable draggable"><center><p>Research Facilities</p></center></div>
+        <div id="draggable_thrust" class="ui-draggable draggable"><center><p>Thrust Area</p></center></div>
+        <div id="draggable_crf" class="ui-draggable draggable"><center><p><font size="3">Central Research Facility</font></p></center></div>
+        <div id="draggable_collabpration" class="ui-draggable draggable"><center><p>Collaboration</p></center></div>    
+        <div id="draggable_RandD" class="ui-draggable draggable"><center><p>R &amp; D Projects</p></center></div>
+        <div id="draggable_consultancy" class="ui-draggable draggable"><center><p>Consultancy Projects</p></center></div>
+    </div>-->
+    <!--<h3 id="dept department_accordion" class="ui-draggable draggable"><a href="#" id="department_accordion" class="ui-draggable draggable">Departments</a></h3>
+    <div>
+    	<div id="draggable_depts" class="ui-draggable draggable"><center><p>All Departments</p></center></div>
+        <div id="draggable_centers" class="ui-draggable draggable"><center><p>Centers</p></center></div>
+    </div>-->
+    <h3>Fests</h3>
+    <div>
+    	<div id="draggable_concetto" class="ui-draggable draggable"><center><p>Concetto</p></center></div>
+        <div id="draggable_basant" class="ui-draggable draggable"><center><p>Basant</p></center></div>
+        <div id="draggable_parakram" class="ui-draggable draggable"><center><p>Parakram</p></center></div>
+        <div id="draggable_pratibimb" class="ui-draggable draggable"><center><p>Pratibimb</p></center></div>    
+        <div id="draggable_srijan" class="ui-draggable draggable"><center><p>Srijan</p></center></div> 
+    </div>    
+        
+</div>
+    
+
+<div id="notice_toggle">
+	<form id="notice_check"><input type="checkbox" checked="checked" id="check_notice" /><a href="#" id="check">Show Notice Box</a></form>
+</div>
+
+</div>
+<div id="container_content" >
+
+<!--CSS Menu -->
+<!--<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#'><span>Institute</span></a></li>
+   <li class='has-sub'><a href='#'><span>Administration</span></a>
+      <ul>
+         <li class='last'><a href='#'><span>Chairman</span></a></li>
+         <li class='last'><a href='#'>Director</a></li>
+         <li class='last'><a href='#'>Governing Body</a></li>
+         <li class='has-sub'><a href='#'>Acadamic Administration</a>
+         	<ul>
+               <li class='last'><a href='#'><span>General Council</span></a></li>
+               <li class='last'><a href='#'><span>Executive Board</span></a></li>
+               <li class='last'><a href='#'><span>Finance Commitee</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'>Hostel Administration</a>
+         	<ul>
+               <li><a href='#'><span>Sub Item</span></a></li>
+               <li class='last'><a href='#'><span>Sub Item</span></a></li>
+            </ul>
+         </li>
+         
+         <li class='has-sub'><a href='#'>General Adminstration</a>
+         	<ul>
+               <li><a href='#'><span>Sub Item</span></a></li>
+               <li class='last'><a href='#'><span>Sub Item</span></a></li>
+            </ul>
+         </li>
+         
+         
+      </ul>
+   </li>
+   <li class="last"><a href="#"><span>Departments</span></a></li>
+   <li><a href='#'><span>About</span></a></li>
+   <li class='last'><a href='#'><span>Contact</span></a></li>
+   
+</ul>
+</div><!--of id cssmenu-->
+
+
+<div id="written_content">
+<!--<iframe src="about_ism.html" scrolling="no" frameborder="0" align="right" id="frame" class="droppable"></iframe>-->
+
+<!--About ISM-->
+<div id="about_ism" class="droppable main_body" >
+<!--<img src="images/slideshow/default.jpg" />
+<!--CSS Menu -->
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#' id="abt_ism_css_menu_default">Institute</a></li>
+   <li class="last"><a href="#" id="abt_ism_css_menu_crest"><span>Institute crest</span></a></li>
+   <li class="last"><a href="#" id="abt_ism_css_menu_vision"><span>Vision and Mission</span></a></li>
+   <li class="has-sub"><a href="#" id="abt_ism_css_menu_annual_report"><span>Annual Report</span></a>
+   		<ul>
+        	<li class="has-sub"><a href="#"><span>English Version</span></a>
+            	<ul>
+                	<li class="last"><a href="http://www.ismdhanbad.ac.in/AnnualReport/ARE-2012-13.pdf" target="_blank"><span>2012-13</span></a></li>
+                    <li class="last"><a href="http://www.ismdhanbad.ac.in/AnnualReport/ARE-2011-12.pdf" target="_blank"><span>2011-12</span></a></li>
+                    <li class="last"><a href="http://www.ismdhanbad.ac.in/AnnualReport/ARE-2010-11.pdf" target="_blank"><span>2010-11</span></a></li>
+                </ul>
+            </li>
+            <li class="has-sub"><a href="#"><span>Hindi Version</span></a>
+            	<ul>
+                	<li class="last"><a href="http://www.ismdhanbad.ac.in/AnnualReport/ARH-2011-12.pdf" target="_blank"><span>2011-12</span></a></li>
+                    <li class="last"><a href="http://www.ismdhanbad.ac.in/AnnualReport/ARH-2010-11.pdf" target="_blank"><span>2010-11</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="last"><a href="http://ismdhanbad.ac.in/student/ISS/" target="_blank"><span>ISS</span></a></li>
+</ul>
+</div><!--of id cssmenu-->
+
+
+
+<div class="to-color">
+<h1 align="center">About ISM</h1>
+<p>The Indian School of Mines was formally opened on 9th December 1926, by Lord Irwin, the then Viceroy of India with disciplines of Mining and Applied Geology. In 1967 it was granted the status of a deemed to be university. Situated in the heart of the country's prime coking coal belt, the campus spreads over an area of 393 acres. The fully residential campus with all the facilities of a world class academic institute currently has 17 different Departments and over 200 faculty, and over 5000 students.
+</p><p>
+The institute currently offers a host of programmes like B. Tech., M. Tech., M. Sc. Tech., and MBA. In addition the School also offers M. Phil. and full time as well as part time Ph.D. programmes in the field of engineering, Sciences, Management and Humanities and Social Sciences. ISM also awards D.Sc. as the highest degree of academic achievement. The admission to the four year and the five year graduate courses are through the prestigious IIT-JEE examination. The institute has links with reputed universities and institutes across the globe and has an alumni base all over the world. Today the School is making foray into the newer areas of academic endeavors in tune with the changing ties and demands of the industries. </p>
+</div>
+
+
+
+<div id="crest_container">
+<div id="about_ism_crest_black" class="black_screen"></div>
+<img src="images/creast.jpg" />
+</div>
+
+
+
+
+<div id="vision_container" style="background:rgba(0,0,0,0.6); position:absolute; width:100%; height:130%;">
+
+<div id="about_ism_vision">
+<h2 align="center"><font color="#000066">Vision</font></h2>
+<p>To  be  a  nationally  and  internationally  acclaimed premier institution of higher technical and scientific education with social commitment having an ethos for intellectual excellence, where initiative is nurtured, where new ideas, research and scholarship flourish, where intellectual honesty is the norm and from which will emerge the leaders and  innovators  of  tomorrow  in  the  realm  of technology.  While  serving  as  a  catalyst  in  a developing  society, its goal as one of the premier technology  education  institution  in  the  country would be to intimately involve itself not just in the technological  development  of the  Nation but indeed in its overall development.</p>
+<h4>Mission</h4>
+<p></p><ul type="square">
+	<li>To educate and train manpower in various disciplines of engineering and technology, management, applied sciences and applied arts at the graduate, postgraduate and research levels</li>
+	<li>To foster the creation of new and relevant technologies in the areas of its core competency and to transfer them to industry for effective utilization</li>
+	<li>To participate directly in the planning and solving of engineering and managerial problems of relevance to Indian industry and to society at large</li>
+	<li>To develop and conduct continuing education programmes for practicing engineers and managers</li>
+	<li>To develop strong collaborative and cooperative links with private and public sector industries and government user departments</li>
+	<li>To develop comprehensive and intimate interaction with premier academic and research institutions within the country and abroad for mutual benefit</li>
+	<li>To develop programmes for faculty growth and development</li>
+	<li>To anticipate the technological needs of the nation, and to plan and prepare to cater to them</li>
+	<li>To interact with the community/society at large with a view to inculcate in them a feel for scientific and technological thought and endeavour</li>
+	<li>To develop the region in which the Institute is located through community development programmes including training and education</li>
+</ul>
+<p></p>
+</div>
+</div>
+
+
+
+</div><!--About ISM-->
+
+<!--How to reach-->
+<div id="how-to-reach" class="droppable main_body">
+<div id="left_reach" style="position:absolute; width:48%; height:100%; left:1%;">
+<div id="left_reach_top" style="position:absolute; height:49%; top:1%; left:0%; width:100%;"><p>ISM is located in the city of Dhanbad, which is also known as the coal capital of India. In population terms, Dhanbad is the second biggest city of the state of Jharkhand. The institute is surrounded by offices related to mining such as the Central Institute of Mining and Fuel Research, and the headquarters of Directorate General of Mines Safety and of Bharat Coking Coal Limited. ISM is located 3 km from the Dhanbad Railway Station, which lies on the Kolkata-Delhi railway line. Dhanbad is also connected with Kolkata by National Highway-2 (Grand Trunk Road).</p></div>
+<div id="left_reach_down" style="position:absolute; height:49%; bottom:1%; left:0%; width:100%;">
+<p style="display: block !important; width: 75%; height:75%; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://weathertemperature.com/forecast/?q=Dhanbad,Jharkhand,India" title="Dhanbad, Jharkhand, India Weather Forecast" onclick="this.target='_blank'"><img src="http://widget.addgadgets.com/weather/v1/?q=Dhanbad,Jharkhand,India&amp;s=2&amp;u=1" alt="Weather temperature in Dhanbad, Jharkhand, India" width="100%" height="100%" style="border:0" /></a><br /></p>
+</div>
+</div>
+<div id="right_reach" style="position:absolute; width:48%; height:100%; right:1%">
+<div id="map-canvas" style="position:absolute; width:100%; height:95%; top:2.5%;">
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map-canvas');
+        var map_options = {
+          center: new google.maps.LatLng(23.8133, 86.4419),
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+	  map.checkResize();
+</script>
+</div>
+</div>
+
+</div><!--How to Reach-->
+<!--Hostels-->
+<div id="about_hostels" class="droppable main_body">
+<div class="to-color">
+<h1 align="center">Hostels</h1>
+<p>All the programs run by the School are essentially residential programs. The school provides rooms in the Hostel to all students. Here the students stay in a healthy atmosphere and perfect living conditions along with friends to share the precious moments of life. Separate hostels for boys and girls with modern amenities help the students to pursue their education in a homely environment. In order to accommodate all students in the school a number of hostels available in the campus and some mega hostels are under construction.</p>
+<p>
+Hostels available in the School are as follows :
+</p><ol type="1">
+<li><a href="#" id="ruby" class="hostel">Ruby Hostel (Exclusively for girls)</a></li>
+<li><a href="#" id="opal" class="hostel">Opal Hostel (Exclusively for girls)</a></li>
+<li><a href="#" id="diamond" class="hostel">Diamond Hostel</a></li>
+<li><a href="#" id="emerald" class="hostel">Emerald Hostel</a></li>
+<li><a href="#" id="topaz" class="hostel">Topaz Hostel</a></li>
+<li><a href="#" id="saphire" class="hostel">Saphire Hostel</a></li>
+<li><a href="#" id="amber" class="hostel">Amber Hostel (Construction-in-Progress)</a></li>
+<li><a href="#" id="jasper" class="hostel">Jasper Hostel</a></li>
+</ol>
+<p></p>
+</div>
+<div id="hostel_images_div">
+<img src="images/slideshow/19.jpg" alt="" id="hostel_images" />
+</div>
+</div>
+
+<!--Research & Consultancy-->
+<div id="research_div" class="droppable main_body rnd">
+
+<!--CSS Menu -->
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#' id="menu_crf">CRF</a></li>
+   <li class="last"><a href="http://www.ismdhanbad.ac.in/academics/Equipment-ISM.pdf" target="_blank"><span>Research Facilities</span></a></li>
+   <li class="last"><a href="http://www.ismdhanbad.ac.in/thrust-area/ISM.doc" target="_blank"><span>Thrust Area</span></a></li>
+   <li class="has-sub"><a href="#" id="menu_collaboration"><span>Collaboration</span></a>
+   		<ul>
+        	<li class="last"><a href="#" id="menu_national_coll"><span>National</span></a></li>
+            <li class="has-sub"><a href="#" id="menu_international_coll"><span>International</span></a>
+            	<ul>
+            		<li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/general-guidelines-for-international-relations.pdf" target="_blank"><span>General Guidelines</span></a></li>
+                    <li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/presentation.pdf" target="_blank"><span>Presentation</span></a></li>
+                    <li class="has-sub"><a href="#"><span>Erasmus Mundus India 4EU II</span></a>
+                    	<ul>
+                        	<li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/ErasmusMundusIndia4EUIIProjectbegins.pdf" target="_blank"><span>About</span></a></li>
+                            <li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/India-4EU-flyer.pdf" target="_blank"><span>Flyer</span></a></li>
+                            <li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/India-4EU-Poster.pdf" target="_blank"><span>Poster</span></a></li>
+                            <li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/press-release.pdf" target="_blank"><span>Press Release</span></a></li>
+                         </ul>   
+                    </li>
+                    <li class="has-sub"><a href="#"><span>Erasmus Mundus Areas+ Project</span></a>
+                    	<ul>
+                        	<li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/AREAS.pdf" target="_blank"><span>About Areas+</span></a></li>
+                            <li class="last"><a href="http://www.ismdhanbad.ac.in/collaboration/international/Incoming.pdf" target="_blank"><span>Rules for Incoming Mobilities</span></a></li>
+                            <li class="last"><a href="http://www.ismdhanbad.ac.in/collaboration/international/Outgoing.pdf" target="_blank"><span>Rules for Outgoing Mobilities</span></a></li>
+                            <li class="last"><a href="http://www.ismdhanbad.ac.in/collaboration/international/Academic-Offers.xls" target="_blank"><span>Acadamic offers for Incoming Mobilities</span></a></li>
+                    	</ul>
+                    </li>
+                    <li class="has-sub"><a href="#"><span>Students’ International Travel Grant Scheme</span></a>
+                    	<ul>
+                        	<li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/SIT-Scheme-details.pdf" target="_blank"><span>About</span></a></li>
+                            <li class="last"><a href="https://ismdhanbad.ac.in/collaboration/international/SIT-Application-form.pdf" target="_blank"><span>Application Form</span></a></li>
+                        </ul>
+                    </li>
+            	</ul>
+            </li>
+        </ul>
+    </li>
+    <li class="has-sub"><a href="#"><span>R &amp; D Projects</span></a>
+   		<ul>
+        	<li class="last"><a href="http://ismdhanbad.ac.in/rnd-projects/2013-14.pdf" target="_blank"><span>2013-14 (Current)</span></a></li>
+            <li class="last"><a href="http://ismdhanbad.ac.in/rnd-projects/2012-13.pdf" target="_blank"><span>2012-13</span></a></li>
+            <li class="last"><a href="http://ismdhanbad.ac.in/rnd-projects/2011-12.pdf" target="_blank"><span>2011-12</span></a></li>
+            <li class="last"><a href="http://ismdhanbad.ac.in/rnd-projects/2010-11.pdf" target="_blank"><span>2010-11</span></a></li>
+            <li class="last"><a href="http://www.ismdhanbad.ac.in/wp-content/uploads/2012/07/ongoingrndcontinue.pdf" target="_blank"><span>Ongoing</span></a></li>
+        </ul>
+    </li>
+   	  <li class="has-sub"><a href="#"><span>Consultancy Projects</span></a>
+   		<ul>
+        	<li class="last"><a href="http://www.ismdhanbad.ac.in/consultancy-projects/2013-14.pdf" target="_blank"><span>2013-14 (Current)</span></a></li>
+            <li class="last"><a href="http://www.ismdhanbad.ac.in/consultancy-projects/2012-13.pdf" target="_blank"><span>2012-13</span></a></li>
+            <li class="last"><a href="http://www.ismdhanbad.ac.in/consultancy-projects/2011-12.pdf" target="_blank"><span>2011-12</span></a></li>
+            <li class="last"><a href="http://www.ismdhanbad.ac.in/consultancy-projects/2010-11.pdf" target="_blank"><span>2010-11</span></a></li>
+        </ul>
+    </li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+<div id="crf_container" style="background:rgba(0,0,0,0.6); position:absolute; width:100%; height:160%;">
+
+<div id="about_crf">
+<h1 align="center"><font color="#000066">Central Research Facility</font></h1>
+<h2><font color="#000066">ABOUT CENTRAL RESEARCH FACILITIES (CRF)</font></h2>
+<p>A Central Research Facility at Indian School of Mines (ISM) will be a Centre of national importance at which the high-quality equipment with cutting edge technologies concentrated at a single location which will provide scientific and technical services for researchers. Such a facility is an important tool for strengthening the research-relevant infrastructure of science and, consequently, represents a key prerequisite for preserving and raising the efficiency of research. Sophisticated analytical instruments are vital for pursuing research in all areas of modern science and technology.</p>
+<h3>OBJECTIVES OF CRF</h3>
+<ul type="disc">
+	<li>To establish state-of- the-art research facilities and instruments to support advanced research under one umbrella</li>
+	<li>To support and promote inter- and multi- disciplinary research in contemporary and frontier areas</li>
+	<li>To enable Faculty members and research scholars of I.S.M to get the facilities of most advanced instruments without the need of going to outside Institutions as is the case at present.</li>
+	<li>To establish supporting facilities (e.g. Double Distilled Water Plant, Milli-Pore and Milli-Q water Plant, Liquid Nitrogen Plant etc. ) for smooth running of instruments.</li>
+			<big><b>In addition to the main objectives as given above the Centre will also carry out following other activities:</b></big>
+	<li>Organizing short term courses/workshops on the use and application of various instruments and analytical techniques</li>
+	<li>Impart training to technicians for maintenance and operation of sophisticated instruments</li>
+	<li>Acquiring and developing capability for preventive maintenance and repair of sophisticated instruments</li>
+	<li>Generating institutional fund by providing these facilities to the users.</li>
+</ul>
+<h4>&nbsp;&nbsp;&nbsp;FE-SEM Supra 55 (Germany)with Air Lock, EDS, EBSD in CRF, ISM
+<a href="http://www.ismdhanbad.ac.in/crf/CentralResearchFacility.pdf" target="_blank">Click here for details</a></h4>
+
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indent form & Rules <a href="http://www.ismdhanbad.ac.in/crf/Indent-form-Rules.pdf" target="_blank">Click here for details</a></h4>
+</div>
+</div><!--CRF-->
+</div><!--research-->
+
+<!--departments-->
+<div id="depts" class="droppable main_body">
+<div id="depts_in" style="background:#1D293D;">
+<h1 align="center"><u>Departments and Centres</u></h1>
+<h2>Departments</h2>
+<div id="left_div">
+<p><span id="yo"><img src="images/dept_img/apchem.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/applied-chemistry/">Applied Chemistry</a></span></p>
+<p><span id="yo"><img src="images/dept_img/geophysics.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/applied-geophysics/">Applied Geophysics</a></span></p>
+<p><span id="yo"><img src="images/dept_img/phy.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/applied-physics/">Applied Physics</a></span></p>
+<p><span id="yo"><img src="images/dept_img/civil_engg.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/civil-engineering/">Civil Engineering</a></span></p>
+<p><span id="yo"><img src="images/dept_img/ee.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/electrical-engineering/">Electrical Engineering</a></span></p>
+<p><span id="yo"><img src="images/dept_img/enviro_engg.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/environmental-science-and-engineering/"><font size="4.5">Environmental Science & Engineering</font></a></span></p>
+<p><span id="yo"><img src="images/dept_img/hss.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/humanities-and-social-science/"><font size="5">Humanities and Social Science</font></a></span></p>
+<p><span id="yo"><img src="images/dept_img/me.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/management-studies/"><font size="5">Mechanical Engineering</font></a></span></p>
+<p><span id="yo"><img src="images/dept_img/min_engg.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/mining-engineering/">Mining Engineering</a></span></p>
+</div> 
+
+<div id="right_div">
+<p><span id="yo"><img src="images/dept_img/geology.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/applied-geology/">Applied Geology</a></span></p>
+<p><span id="yo"><img src="images/dept_img/maths.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/applied-mathematics/">Applied Mathematics</a></span></p>
+<p><span id="yo"><img src="images/dept_img/chem_engg.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/chemical-engineering/">Chemical Engineering</a></span></p>
+<p><span id="yo"><img src="images/dept_img/cse.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/computer-science-engineering/"><font size="5">Computer Science & Engineering</font></a></span></p>
+<p><span id="yo"><img src="images/dept_img/ece.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/electronics-engineering/">Electronics Engineering</a></span></p>
+<p><span id="yo"><img src="images/dept_img/mineral_engg.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/fuel-mineral-engineering/">Fuel & Mineral Engineering</a></span></p>
+<p><span id="yo"><img src="images/dept_img/manag_studies.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/management-studies/">Management Studies</a></span></p>
+<p><span id="yo"><img src="images/dept_img/min_mac.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/mme/"><font size="5">Mining Machinery Engineering</font></a></span></p>
+<p><span id="yo"><img src="images/dept_img/petro_engg.jpg" width="100" height="90" align="middle"/><a href="http://www.ismdhanbad.ac.in/petroleum-engineering/">Petroleum Engineering</a></span></p>
+
+</div>
+<div id="centre">
+<h2>Centres</h2>
+
+<div id="left_div">
+<p><span id="yo"><img src="images/dept_img/cme.jpg"width="100" height="90" align="middle"/><a href="#"><font size="5">Centre of Mining Environment</font></a></span></p>
+</div>
+
+<div id="right_div">
+<p><span id="yo"><img src="images/dept_img/cc.jpg" width="100" height="90" align="middle"/><a href="#">Computer Centre</a></span></p>
+</div>
+
+</div>
+</div>
+
+</div><!--Departments-->
+
+<!--Administration-->
+
+<!--Chairman and Director -->
+<div id="chair_direct" class="droppable main_body admin">
+<div class="black_screen"></div>
+
+<!--Chairman-->
+<div id="chairman" style="position:absolute; left:25%; width:49%; height:100%;">
+<div id="acad_sec">
+<h1>Chairman, General Council & Executive Board</h1>
+<div id="acad_sec1">
+<p>
+	</p><h2><u><!--Associate Dean ( Academic & Research )--></u></h2>
+	<span id="yoa">
+		<img src="images/chairman.jpg" align="left" style="height:85%"/>
+		<a href="cv_pkl.pdf" target="_blank"><img src="images/cv_logo.png" width="75" height="75" align="right"/></a>
+		
+	<table border="0">
+    <caption><font color="#248eef"> Mr. Prateep Kumar Lahiri, IAS (Retd.)</font></caption>
+		<tr>
+			<td><font color="#248eef"><b>Email ID</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>cman@ismdhanbad.ac.in</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Phone</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-11-26602523</td>
+		</tr>
+		<!--<tr>
+			<td><font color="#248eef"><b>Fax No.</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-2296611</td>
+		</tr>-->
+	
+	</table>
+	</span>
+	<br/>
+<p></p>
+
+</div>
+
+
+</div>
+</div>
+<!--End for Chairman-->
+
+
+<!--Director-->
+<div id="director" style="position:absolute; left:25%; width:49%; height:100%; top:50%">
+<div id="acad_sec">
+<h1>Director</h1>
+<div id="acad_sec1">
+<p>
+	</p><h2><u><!--Associate Dean ( Academic & Research )--></u></h2>
+	<span id="yoa">
+		<img src="images/panigrahi.jpg" align="left" />
+		<a href="cv_panigrahi.pdf" target="_blank"><img src="images/cv_logo.png" align="right"/></a>
+		
+	<table border="0">
+    <caption><font color="#248eef"> Prof. D. C. Panigrahi </font></caption>
+		<tr>
+			<td><font color="#248eef"><b>Email ID</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>dt@ismdhanbad.ac.in</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Phone</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-223-5201</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Fax No.</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-2296603</td>
+		</tr>
+	
+	</table>
+	</span>
+	<br/>
+<p></p>
+
+</div>
+<br />
+<br />
+</div>
+<!--</div>To color-->
+</div>
+<!--End for Director-->
+
+</div><!--End of chairman and director-->
+
+<!--Governing Body-->
+<div id="govern_body" class="droppable main_body admin">
+	<!--CSS Menu-->
+    <div id='cssmenu'>
+	<ul>
+	  <li class='active'><a href='#' id="govern_gen">General Council</a></li>
+ 	  <li class="last"><a href="#" id="govern_exe"><span>Exective Board</span></a></li>
+ 	  <li class="last"><a href="#" id="govern_fin"><span>Finance Commitee</span></a></li>
+    </ul>
+ 	</div><!--of id cssmenu-->
+<!--General Council <div class="black_screen"></div> -->
+<div class="black_screen"></div>
+<div id="govern_general">
+</div>
+</div><!--Govern Body-->
+
+<!--Acadamic Administration-->
+<div id="acad_admin" class="main_body droppable admin">
+<!--CSS Menu-->
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#' id="menu_acad_coun"><span>Acadamic Council</span></a></li>
+   <li class='last'><a href='#' id="menu_res_coun"><span>Reasearch Council</span></a></li>    
+   <li class='last'><a href='#' id="menu_deans"><span>Deans</span></a></li>
+   <li class='last'><a href='#' id="menu_pce"><span>PCE</span></a></li>
+   <li class='last'><a href='#' id="menu_ass_dean"><span>Associate Deans</span></a></li>
+   <li class='last'><a href='#' id="menu_hods"><span>HODs</span></a></li>
+   <li class='last'><a href='#' id="menu_lib"><span>Librarian</span></a></li>
+</ul>
+</div><!--of id cssmenu-->
+
+<!--Associate Deans-->
+<div id="associate" class="droppable main_body admin">
+<div class="black_screen"></div>
+
+<!--Chairman-->
+<div id="chairman" style="position:absolute; left:25%; width:49%; height:100%;">
+<div id="acad_sec">
+<h1>Chairman, General Council & Executive Board</h1>
+<div id="acad_sec1">
+<div id="yoa">
+	<h2><u><!--Associate Dean ( Academic & Research )--></u></h2>
+	<!--<span id="yoa">-->
+		<img src="images/chairman.jpg" align="left" style="height:85%"/>
+		<a href="cv_pkl.pdf" target="_blank"><img src="images/cv_logo.png" width="75" height="75" align="right"/></a>
+		
+	<table border="0">
+    <caption><font color="#248eef"> Mr. Prateep Kumar Lahiri, IAS (Retd.)</font></caption>
+		<tr>
+			<td><font color="#248eef"><b>Email ID</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>cman@ismdhanbad.ac.in</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Phone</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-11-26602523</td>
+		</tr>
+		<!--<tr>
+			<td><font color="#248eef"><b>Fax No.</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-2296611</td>
+		</tr>-->
+	
+	</table>
+	<br/>
+</div>
+
+</div>
+
+
+</div>
+</div>
+<!--End for Chairman-->
+
+
+<!--Director-->
+<div id="director" style="position:absolute; left:25%; width:49%; height:100%; top:50%">
+<div id="acad_sec">
+<h1>Director</h1>
+<div id="acad_sec1">
+<p id="yoa">
+	</p><h2><u><!--Associate Dean ( Academic & Research )--></u></h2>
+	<!--</h1><span id="yoa">-->
+		<img src="images/panigrahi.jpg" align="left" />
+		<a href="cv_panigrahi.pdf" target="_blank"><img src="images/cv_logo.png" align="right"/></a>
+		
+	<table border="0">
+    <caption><font color="#248eef"> Prof. D. C. Panigrahi </font></caption>
+		<tr>
+			<td><font color="#248eef"><b>Email ID</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>dt@ismdhanbad.ac.in</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Phone</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-223-5201</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Fax No.</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-2296603</td>
+		</tr>
+	
+	</table>
+	<!--</span>-->
+<p></p>
+
+</div>
+<br />
+<br />
+</div>
+<!--</div>To color-->
+</div>
+<!--End for Director-->
+
+</div><!--End of Associate Deans-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!--Acadamic Deans-->
+
+
+
+
+
+
+
+<!--General Admin-->
+<div id="gen_admin" class="droppable main_body admin">
+
+
+<!--CSS Menu-->
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#' id="menu_reg"><span>Registrar</span></a></li>
+   <li class="has-sub"><a href="#">Sections</a>
+   		<ul>
+   			<li class='last'><a href='#' id="menu_acad-sec"><span>Acadamic</span></a></li>    
+   			<li class='last'><a href='#' id="menu_accounts"><span>Accounts</span></a></li>
+   			<li class='last'><a href='#' id="menu_estd"><span>Establishment</span></a></li>
+   			<li class='last'><a href='#' id="menu_exam"><span>Examination</span></a></li>
+   			<li class='last'><a href='#' id="menu_purchase"><span>Purchase &amp; Store</span></a></li>
+        </ul>
+    </li>
+   <li class='last'><a href='#' id="menu_campus-admin"><span>Campus Administration</span></a></li>
+   <li class='last'><a href='#' id="menu_campus-main"><span>Campus Maintainence</span></a></li>
+   <li class='last'><a href='#' id="menu_hindi"><span>Hindi</span></a></li>
+</ul>
+</div><!--of id cssmenu-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Campus Admin (campus_admin)-->
+<div id="campus_admin" class="admins" style="width:100%; height:100%;">
+<div class="black_screen"></div>
+<div id="campus-admin" style="position:absolute; left:25%; width:50%; height:100%; top:10%">
+<div id="acad_sec">
+<h1>Campus Administration</h1>
+
+<div id="acad_sec1">
+<div id="yoa">
+	
+	<img src="images/rahul.jpg" align="left" />
+		<table border="0" >
+		<thead>    </thead><caption><font color="#248eef">Mr. Rahul Kumar </font></caption>
+		<tbody>
+        <tr>
+			<td><font color="#248eef"><b>Email ID</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>eso@ismdhanbad.ac.in</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Phone</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-223-5619</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Fax No.</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-2296563</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+<br />
+<br />
+</div>
+<!--</div>To color-->
+</div>
+<!--End for Campus-Admin-->
+</div><!--Campus Admin-->
+
+<!--Campus Maintainence (campus_main)-->
+<div id="campus_main" class="admins" style="width:100%; height:100%;">
+<div class="black_screen"></div>
+<div id="campus-main" style="position:absolute; left:25%; width:50%; height:100%; top:10%">
+<div id="acad_sec">
+<h1>Campus Maintainence</h1>
+
+<div id="acad_sec1">
+
+	
+	<span id="yoa">
+		<img src="images/nandi.jpg" align="left" />
+		
+	<table border="0" style="padding-left:2%;">
+    <caption><font color="#248eef"> Mr. K.C. Nandi</font></caption>
+		<tr>
+			<td><font color="#248eef"><b>Email ID</b></font></td>
+			<td><font color="#248eef"><b>: </b></font></td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Phone</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-223-5622</td>
+		</tr>
+		<tr>
+			<td><font color="#248eef"><b>Fax No.</b></font></td>
+			<td><font color="#248eef"><b>: </b></font>+91-326-2296563</td>
+		</tr>
+	
+	</table>
+	</span>
+	<br/>
+
+
+</div>
+<br />
+<br />
+</div>
+<!--</div>To color-->
+</div>
+<!--End for Campus-Maint-->
+</div><!--Campus Maintainence-->
+
+
+
+
+
+
+
+</div><!--Gen Admin-->
+
+<!--Hostel Administration-->
+<div id="hos_admin" class="droppable main_body admin">
+<!--CSS Menu-->
+<div id='cssmenu'>
+<ul>
+   <li class="has-sub"><a href="#">Boys Hostels</a>
+   		<ul>
+   			<li class='last'><a href='#' id="menu_jasper"><span>Jasper</span></a></li>    
+   			<li class='last'><a href='#' id="menu_amber"><span>Amber</span></a></li>
+   			<li class='last'><a href='#' id="menu_topaz"><span>Topaz</span></a></li>
+   			<li class='last'><a href='#' id="menu_emerald"><span>Emerald</span></a></li>
+   			<li class='last'><a href='#' id="menu_saphire"><span>Saphire</span></a></li>
+        </ul>
+    </li>
+   <li class='has-sub'><a href='#'><span>Girls Hostel</span></a>
+  		<ul>
+   			<li class='last'><a href='#' id="menu_ruby"><span>Ruby</span></a></li>
+ 			<li class='last'><a href='#' id="menu_opal"><span>Opal</span></a></li>
+        </ul>
+    </li>
+</ul>
+</div><!--of id cssmenu-->
+
+
+
+</div><!--Hostel Admin-->
+
+
+
+
+
+
+
+
+<!--Admission B.Tech-->
+<div id="admin_jee_info" class="droppable main_body">
+<!--<div class="to-color">
+<!--CSS Menu -->
+<div id='cssmenu'>
+<ul>
+   <li class="active"><a href="#" id="jee"><span>JEE</span></a></li>
+   <li class='last'><a href='#' id="jee_btech"><span>B.Tech</span></a></li>
+   <li class='last'><a href="#" id="jee_mtech"><span>M.Tech</span></a></li>
+   <li class='last'><a href="#" id="jee_dual_degree"><span>Dual Degree</span></a></li>
+   <li class="last"><a href="#" id="jee_msc"><span>M.Sc</span></a></li>
+   <li class="last"><a href="#" id="jee_msctech"><span>M.Sc Tech</span></a></li>
+   <li class="last"><a href="#" id="jee_intmsc"><span><font size="-1">Integrated <br /> M.Sc/M.tech</font></span></a></li>
+   <li class="last"><a href="#" id="jee_mba"><span>MBA</span></a></li>
+   <li class="last"><a href="#" id="jee_mphil"><span>M.Phil</span></a></li>
+   <li class="last"><a href="#" id="jee_phd"><span>Ph.D</span></a></li>
+   
+</ul>
+</div><!--of id cssmenu-->
+<!--JEE-->
+<div id="admin_jee" class="admissions">
+<h1 align="center">ISM IIT JEE</h1>
+<h3 align="center">ISM JEE Information Page</h3>
+<h4 align="center">Fee structure applicable for students admitted through IIT JEE (Advanced) 2013 <a href="https://ismdhanbad.ac.in/academics/FEE.pdf">Click Here For Details</a></h4>
+<p align="center">This is to inform all the candidates who are going to take admission in ISM through JEE Advanced 2013 that documentary proof for the candidate being in the top 20 percentile of their respective boards (for candidates passing qualifying examination in 2013) is not required. The candidates being in the top 20 percentile will be verified in ISM following the guidelines published in JEE Advanced 2013 website
+</p><p align="center">
+Classes for 1st year 4-Yr BTech/5-yr Integrated and Dual Degree courses will commence on 24th July, 2013.
+</p><p align="center">
+Admission dates and other details for candidates selected through JEE Advanced 2013 <a href="https://ismdhanbad.ac.in/admissions/jee/ism-jee-2013.pdf">Click Here</a>.
+</p><p align="center">
+For ISM JEE Information <a href="http://ismdhanbad.ac.in/admissions/jee/ISM-JEE-INFO.pdf">Click Here</a>.
+</p><p align="center">
+Placement Record of  <a href="http://ismdhanbad.ac.in/student/placement/data/2013.pdf">2013</a>, <a href="http://ismdhanbad.ac.in/student/placement/data/2012.pdf">2012</a>, <a href="http://ismdhanbad.ac.in/student/placement/data/2011.pdf">2011</a>, <a href="http://ismdhanbad.ac.in/student/placement/data/2010.pdf">2010</a>,  <a href="http://ismdhanbad.ac.in/student/placement/data/2009.pdf">2009</a>, <a href="http://ismdhanbad.ac.in/student/placement/data/2008.pdf">2008</a>, <a href="http://ismdhanbad.ac.in/student/placement/data/2007.pdf">2007</a>.
+</p>
+</div><!--admin_jee-->
+<!--B.Tech-->
+<div id="admin_btech" class="admissions">
+<h1 align="center">B.Tech. Programme</h1>
+<h3 align="center">ISM admits student in all the following B.Tech. Programme through JEE-Advanced only</h3>
+<table align="center">
+	<tr><th>Name of Program</th><th>Offered By Department</th></tr>
+    <tr><td>Chemical Engineering</td><td>Department of Chemical Engineering</td></tr>
+    <tr><td>Civil Engineering</td><td>Department of Civil Engineering</td></tr>
+    <tr><td>Computer Science & Engineering</td><td>Department of Computer Science & Engineering</td></tr>
+    <tr><td>Electrical Engineering</td><td>Department of Electrical Engineering</td></tr>
+    <tr><td>Electronics & Communication Engineering<br />Electronics & Instrumentation Engineering</td><td>Department of Electronics Engineering</td></tr>
+    <tr><td>Environmental Engineering</td><td>Department of Environmental Science and Engineering</td></tr>
+    <tr><td>Mineral Engineering</td><td>Department of Fuel and Mineral Engineering</td></tr>
+    <tr><td>Mechanical Engineering<br />Mining Machinery Engineering</td><td>Department of Mechanical Engg & Mining Machinery Engineering</td></tr>
+    <tr><td>Mining Engineering</td><td>Department of Mining Engineering</td></tr>
+    <tr><td>Petroleum Engineering</td><td>Department of Petroleum Engineering</td></tr>
+</table>
+</div><!-- admin btech-->
+<!--M.Tech-->
+<div id="admin_mtech" class="admissions">
+<h1 align="center">M.Tech Programme</h1>
+<h3 align="center">M.Tech 2014 admissions</h3>
+<p align="center">For online application forms and other details <a href="http://www.examinationonline.in/ISMMTech">Click Here</a></p>
+<p align="center">Help desk Email-Id for M.Tech applicants :<b> helpdesk.mtech.ism@gmail.com</b></p>
+<h3 align="center"><u>Name of M. Tech. programmes along with the course-offering Department</u></h3>
+<table align="center">
+	<tr><th>Name of M.Tech Programme</th><th>Code</th><th>Department Offering it</th></tr>
+    <tr><td>Engineering Geology</td><td>EGL</td><td>Applied Geology</td></tr>
+ <tr><td>Mineral Exploration</td><td>MEX</td><td>Applied Geology</td></tr>
+ <tr><td>Earthquake Disaster, Hazards and Mitigation</td><td>EHM</td><td>Applied Geophysics</td></tr>
+ <tr><td>Petroleum Exploration</td><td>PEX</td><td>Applied Geophysics and Applied Geology</td></tr>
+ <tr><td>Chemical Engg.</td><td>CHE</td><td>Chemical Engineering</td></tr>
+ <tr><td>Structural Engg.</td><td>STE</td><td>Civil Engineering</td></tr>
+ <tr><td>Computer Science and Engg.</td><td>CSE</td><td>Computer Science and Engineering</td></tr>
+ <tr><td>Computer Science and Engg.   (Spl. in Information Security)</td><td>CSE</td><td>Computer Science and Engineering</td></tr>
+ <tr><td>Power Electronics and Electrical Drives</td><td>ELE</td><td>Electrical Engineering</td></tr>
+ <tr><td>Power System  Engg.</td><td>ELE</td><td>Electrical Engineering</td></tr>
+ <tr><td>Electronics & Communication Engg.</td><td>ECE</td><td>Electronics Engineering</td></tr>
+ <tr><td>Environmental Science & Engg.</td><td>ESE</td><td>Environmental Science & Engg.</td></tr>
+ <tr><td>Fuel Engineering</td><td>FLE</td><td>Fuel and Mineral Engineering</td></tr>
+ <tr><td>Mineral Engineering</td><td>MLE</td><td>Fuel and Mineral Engineering</td></tr>
+ <tr><td>Industrial Engg. & Management</td><td>IEM</td><td>Management Studies</td></tr>
+ <tr><td>Mech. Engg. (Spl. in Manufacturing Engg.)</td><td>MEC</td><td>Mechanical Engineering</td></tr>
+ <tr><td>Mech. Engg. (Spl.  in  Design Engg. )</td><td>MEC</td><td>Mechanical Engineering</td></tr>
+ <tr><td>Mech. Engg. (Spl.  in Thermal Engg.)</td><td>MEC</td><td>Mechanical Engineering</td></tr>
+ <tr><td>Maintenance Engg. & Tribology</td><td>MEC</td><td>Mechanical Engineering</td></tr>
+ <tr><td>Geomatics</td><td>GEM</td><td>Mining  Engineering</td></tr>
+ <tr><td>Mining Engg. with Spl. in<ol type="a">
+<li> Mine Planning & Design</li>
+<li> Rock Excavation   Engg.</li>
+<li> Opencast Mining</li>
+<li> Mine  Mechanization</li></ol>
+</td><td>
+MIN
+</td><td>
+Mining  Engineering</td></tr>
+ <tr><td>Opencast Mining</td><td>OPM</td><td>Mining  Engineering</td></tr>
+ <tr><td>Underground Space Technology</td><td>UST</td><td>Mining  Engineering</td></tr>
+ <tr><td>Mining Machinery Engg.</td><td>MME</td><td>Mining Machinery  Engg</td></tr>
+ <tr><td>Petroleum Engg.</td><td>PET</td><td>Petroleum  Engineering</td></tr>
+</table>
+</div><!-- admin mtech-->
+<!--Dual Degree-->
+<div id="admin_dual_degree" class="admissions">
+<h1 align="center">Dual Degree Programme</h1>
+<h3 align="center">ISM admits student in all the following Dual Degree Programme through IIT JEE only</h3>
+<table align="center">
+<caption>5-Year Dual Degree B. Tech. & M. Tech. / MBA</caption>
+<tr><th>Name of Program</th><th>Offered by the Department</th></tr>
+<tr><td>B. Tech. +  M. Tech. in Mineral Engineering</td><td>Department of Fuel and Mineral Engineering</td></tr>
+<tr><td>B. Tech.  + M.Tech. Mining Engineering<br />B. Tech. Mining Engineering with MBA</td><td>Department of Mining Engineering</td></tr>
+<tr><td>B.Tech + M.Tech in Petroleum Engineering</td><td>Department of Petroleum Engineering</td></tr>
+<tr><td>B. Tech. + M. Tech. in Computer Science & Engineering.</td><td>Department of Computer Science & Engineering</td></tr>
+</table>
+
+
+</div><!-- Dual Degree-->
+<!--M.Sc-->
+<div id="admin_msc" class="admissions">
+<h1 align="center">M.Sc. Programme</h1>
+<p align="center">On Line Application for MSc/MScTech and MPhil <a href="#">Click here for details</a></p>
+<h4 align="center">ISM admits student in all the following M. Sc. 2 years ( 4 Semesters ) Programme through ISM Entrance Examination only.</h4>
+<table align="center">
+	<tr><th>Name of Program</th><th>Offered by the Department</th></tr>
+    <tr><td>M.Sc. Chemistry</td><td>Department of Applied Chemistry</td></tr>
+    <tr><td>M.Sc. Mathematics & Computing</td><td>Department of Applied Mathematics</td></tr>
+    <tr><td>M.Sc. Applied Physics</td><td>Department of Applied Physics</td></tr>
+ </table>
+</div><!--admin_msc--> 
+<!--M.Sc Tech-->
+<div id="admin_msctech" class="admissions">
+<h1 align="center">M.Sc.Tech Programme</h1>
+<p align="center">On Line Application for MSc/MScTech and MPhil <a href="http://www.examinationonline.in/ismmscmphil/">Click here for details</a></p>
+<h4 align="center">ISM admits student in all the following 3 Years M.Sc. Tech. Programme through ISM Entrance Examination only</h4>
+<table align="center">
+	<tr><th>Name of Program</th><th>Offered by the Department</th></tr>
+    <tr><td>M.Sc. Tech</td><td>Department of Applied Geology</td></tr>
+    <tr><td>M.Sc. Tech</td><td>Department of Applied Geophysics</td></tr>
+ </table>
+</div><!--admin_msctech--> 
+<!--Integrated-->
+<div id="admin_integrated" class="admissions">
+<h1 align="center">Integrated M.sc /M.Tech/ M.sc Tech Programme</h1>
+<h3 align="center">ISM admits student in all the following 5 Years Integrated  M.Sc. , M.Tech. and M.Sc. Tech. Programme through IIT JEE only</h3>
+<table align="center">
+<caption>5-Year Integrated M. Sc. (Discontinued from 2012-2013)</caption>
+	<tr><th>Name of Program</th><th>Offered By Department</th></tr>
+    <tr><td>5-Year Integrated M.Sc Applied Physics</td><td>Department of Applied Physics</td></tr>
+    <tr><td>5-Year Integrated M.Sc Chemistry</td><td>Department of Applied Chemistry</td></tr>
+    <tr><td>5-Year Integrated M.Sc Mathematics & Computing</td><td>Department of Applied Mathematics</td></tr>
+    <tr><th colspan="2">5-Year Integrated M. Tech Programme</th></tr>
+    <tr><td>5-Year Integrated M. Tech. Mathematics & Computing</td><td>Department of Applied Mathematics</td></tr>
+    <tr><th colspan="2">5-Year Integrated M. Sc. Tech Programme</th></tr>
+    <tr><td>M.Sc. Tech</td><td>Department of Applied Geology</td></tr>
+    <tr><td>M.Sc. Tech</td><td>Department of Applied Geophysics</td></tr>
+</table>
+</div><!-- admin integrated-->
+<!--MBA-->
+<div id="admin_mba" class="admissions">
+<h1 align="center">MBA Programme</h1>
+<p align="center">ISM admits students for MBA programmes through CAT scores ( conducted by IIMs ) followed by Group Discussion and Personal Interview.</p>
+<h4 align="center">Admission Notice : Executive MBA PROGRAMME Session: 2014–2017 <a href="http://www.ismdhanbad.ac.in/admissions/MBA/emba/ExMBA-2014-Ad.pdf" target="_blank">Click here for details</a></h4>
+<h4 align="center">Admission Notice : MBA PROGRAMME (TWO-YEAR FULL TIME) Session: 2014–2016 <a href="http://www.ismdhanbad.ac.in/admissions/MBA/2014-16/MBA-AD-2014.pdf" target="_blank">Click here for details</a></h4>
+<h4 align="center"><center><ol>
+	<li>MBA application form 2014  <a href="http://www.ismdhanbad.ac.in/admissions/MBA/2014-16/AF.pdf" target="_blank">Click Here for Details</a></li>
+    <li>MBA admission  brouchre 2014 <a href="http://www.ismdhanbad.ac.in/admissions/MBA/2014-16/AF.pdf" target="_blank">Click Here for Details</a></li>
+    </ol></center></h4>
+<table align="center">
+	<tr><th>Name of Program</th><th>Offered by the Department</th></tr>
+    <tr><td>MBA 2 years (4 Semesters)</td><td>Department of Management Studies</td></tr>
+    <tr><td>Executive MBA 3 years (6 Semesters)</td><td>Department of Management Studies</td></tr>
+ </table>
+</div><!--admin_mba--> 
+<!--M Phil-->
+<div id="admin_mphil" class="admissions">
+<h1 align="center">M.Phil. Programme</h1>
+<p align="center">On Line Application for MSc/MScTech and MPhil <a href="http://www.examinationonline.in/ismmscmphil/">Click here for details</a></p>
+<h4 align="center">ISM admits students for the M.Phil programmes through GATE/Written Test and Interview</h4>
+<table align="center">
+	<tr><th>Name of Program</th><th>Offered by the Department</th></tr>
+    <tr><td>Applied Chemistry</td><td>Department of Applied Chemistry</td></tr>
+    <tr><td>Applied Physics</td><td>Department of Applied Physics</td></tr>
+    <tr><td>Applied Mathematics</td><td>Department of Applied Mathematics</td></tr>
+    <tr><td>English</td><td>Department of Humanities and Social Sciences</td></tr>
+  </table>
+</div><!--admin_mphil--> 
+<!--Ph.D-->
+<div id="admin_phd" class="admissions">
+<h1 align="center">Ph.D Programme</h1>
+<p align="center">ISM admits Junior Research Fellows( JRFs ) for Ph.D. programme through GATE / Written Test and Interview.</p>
+<h4 align="center">Important notices</h4>
+<p align="center"></p><ol>
+<li>For GATE qualified candidates: GATE score should be valid as on last date of online registration (i.e. 07.04.2014). Candidates with GATE score card having “Valid up to:” prior to 07.04.2014 will be considered as NON-GATE applicants.</li>
+<li>Last date for online registration : 7 th April, 2014 12 midnight</li>
+<li>Last date for depositing fee through Bank Challan (Website closure) : 11th April, 2014</li>
+<li>Last date for receipt of hard copy of the application forms by post at ISM : 14th April, 2014</li>
+<li>ISM JRF Entrance Examination (ISM JRF EE) : 11th May, 2014</li>
+</ol>
+
+<h3 align="center"><a href="http://www.examinationonline.in/ISMJRF/Guidelines/ISMJRFAdvertisement.pdf" target="_blank">Click here for Information bulletin and Syllabus of ISM JRF</a></h3>
+<h3 align="center"><a href="http://www.examinationonline.in/ISMJRF/" target="_blank"> Click here for Online Application for ISM JRF 2014-15 </a></h3>
+<hr />
+<h3 align="center">Ph.D. Registration form (Full Time / Part Time) <a href="http://www.ismdhanbad.ac.in/wp-content/uploads/2012/04/PH.D-FORM-FULL-TIME-PART-TIME.pdf" target="_blank">Click here to download</a></h3>
+<h3 align="center">ISM admits student in all the following Ph.D. Programme through JRF Entrance Test</h3>
+<table align="center">
+	<tr><th>Name of Ph.D Program</th></tr>
+    <tr><td>Engineering</td></tr>
+    <tr><td>Science</td></tr>
+    <tr><td>Humanities and Management</td></tr>
+ </table>
+</div><!--admin_phd--> 
+
+
+
+
+
+
+<!--</div><!--to color-->
+</div><!--admin jee info -->
+
+
+<!--Srijan-->
+<div id="about_srijan" class="droppable main_body">
+<!--<img src="images/srijan.jpg" />-->
+<h1 align="center" style="color:white;"><u>Srijan</u></h1>
+<p>Srijan (Hindi: सृजन meaning Creation) is the annual cultural festival of the Indian School of Mines. It is a three-four day long event held in the month of March every year. It draws a footfall of more than 10,000 students from more than 100 institutes across the country.</p>
+<p>Srijan, the annual cultural fest of ISM Dhanbad has returned to embrace the youth of India from 28<sup>th</sup> to 30<sup>th</sup> March. Having set the records for being bigger,better and snazzier everytime, we are all in readiness to take you for a ride of your lifetime this year as well.</p>
+
+
+<p>The festival encompassing a plethora of cultural, technical as well as management events is ready to enthrall the students of different colleges from all over India. So the stage is set and the time has come for you all to break your inhibitions, unleash the passion within and be a part of this extravagant and ever so mesmerizing gala.The festival encompasses cultural, technical, management as well as gaming events.
+Srijan, call it the 'passion of creation' of 'celeberation of techno-creativity'; its all about setting our wildest dreams and passions into motion. With the name, a plethora of images crop into our minds. The passions of robotics, the foot tapping music, bodies swinging to the rhythm and the ecstasy reaching a crescendo. The festival is not only a panaorama of events to test the cultural and techno-management skills of the youth from all over the country, it also endeavours to bring together the eminent technocrats, scientists as well as artists from round the globe, all in an attemp to bestow a memorable and spellbinding experience. Srijan promises to mould the chaos in ones soul into innovation, creativity and promoting competition and celebrating the victorious. Come, paint our canvas with your imagination !</p>
+<h3><u>Colors And Paints</u></h3>
+<p>This section of Srijan encompasses a variety of creative events like face painting, t-shirt painting, wall painting, graphiti,etc. Other creative events like paper folding, designing, poster making, and such, are too the forte of Colors and Paints.</p>
+<h3><u>Gaming</u></h3>
+<p>This section of Srijan includes multiplayer gaming events such as FIFA (video game series), Need For Speed, Age of Empires, etc.</p>
+<h3><u>Paigam</u></h3>
+<p>Paigam is the one stop stall for all entertaining events of Srijan. Anchored by a group of fun-loving enthusiasts every year Paigam takes the responsibility to make sure that the crowd enjoys utmost by hosting a number of on-spot events.</p>
+
+</div>
+
+<!--Concetto-->
+<div id="about_concetto" class="droppable main_body" style="overflow:auto; overflow-style:auto;">
+<div class="to-color">
+<h1 align="center">Concetto</h1>
+<h3>Detals</h3>
+<p>The 3 day technical fiesta of ISM – "CONCETTO" is one of the largest Techno-management fest in Eastern India with a massive participation of more than 2000 participants from 300 different colleges and institutes, who stalk the grounds of ISM to prove their technical expertise. Encompassing the various boundaries of science and technology, Concetto is there with 45 events in all providing a platform to shoot the "TECHNICAL ME" of everyone. Apart from the various Robotics and Coding events, Concetto calls all you budding entrepreneurs to showcase your innovative business skills. Several departmental events of petroleum engineering, mining engineering and mechanical engineering are all lined up as well. At the same time, hone your skills by joining our workshops taken by the eminent personalities in the various fields of science.
+
+Packed with this plethora of technical events – competitions, workshops, guest lectures, paper meet and exhibition, Concetto is every bit what an engineering lad aspires of. Prizes worth one million, loads of goodies and lots of lots of fun are all that await one who becomes a witness to this legendary event 
+</p>
+<h4>Events</h4>
+<p>
+</p><ul type="disc">
+	<li>Robotica</li>
+	<li>Coding</li>
+	<li>Design & Build</li>
+	<li>Quizes</li>
+	<li>Online Events</li>
+
+</ul>
+<p></p>
+</div>
+</div>
+
+<!--Basant-->
+<div id="about_basant" class="droppable main_body">
+<div class="to-color">
+<h1 align="center">Basant</h1>
+<p>BASANT Annual Alumni Reunion take place every first Sunday of February. The Institution is decked out to welcome the alumni.</p>
+<p>Depending on their achievements, they are felicitated with these awards:
+Basant Samman is a prestigious award instituted by ISM Alumni Association to honor the faculty members of ISM who have spent their valuable time to develop the students who are occupying very high positions in the country and abroad and also for their contribution to the development of the School. ISM Alumni Association has initiated this Samman in the year 2004 on the occasion of BASANT Celebration in ISM Dhanbad.The Samman is also awarded to the Distinguished Alumni and Distinguished Technocrats who have contributed significantly to the activities of ISM and ISM Alumni Association. There is a provision of five such awards every year. The recipients are honoured with the 'Samman Patra', a Memento, and a Shawl.</p>
+
+<p>ISMAA distinguished alumnus--This prestigious award is given to two Alumni, every year for their significant contribution towards development of Science & Technology and promoting & fostering espirit-de-corps. The Award has been instituted by ISM Alumni Association in 2006, in the memory of Late Shri Bhaskar Bhattacharjee, Former Director General, DGMS and a distinguished alumnus of ISM.
+The recipients are honoured with a Citation, a Certificate, and a Memento.</p>
+
+
+</div>
+</div>
+
+<!--Parakram-->
+<div id="about_parakram" class="droppable main_body" style="overflow-y:scroll;">
+<div style="position:absolute; top:0px; left:0px; background:rgba(256,256,256,0.7); height:180%; width:100%;">
+<h1 align="center">Parakram</h1>
+<p>Two words won’t define Parakram, but it still is our Annual Sports Meet, held every year in the colds of February. This season, pay us a visit, flex your muscles, show your strength, be a rage, make your game and winning shall take care of itself.  We ISM invite you to our cold soil, fill it with the thump of your breath, let this steam burn you. Show your PARAKRAM.
+
+</p><h3>DETAILS</h3>
+No pain, no palm. No thorns, no throne. No gall, no glory. No Cross, no Crown. Let this heat get on you, let the steam burn you, let the sweat drown you and let this game define you.  The time is back, the board is set. Some grips, striving for your touch. Some acts, waiting for your guts. Some us and some you looking down the rest. People call us meagre; Call us the petty side-life of their prosperity. But we, We don’t buy them, because this is much beyond their might, much beyond the compilation of their bucks, much beyond the sense of their mind. Once again, let your warm feets touch the cold soil of our tracks; fill the hollowness of our wind with the thump of your breath. Minds around us galore, much words thrown; Enough said and done.  Show the spirit, be a Rage; This February, WeISM, invites you and everyone, every player and every playing soul, to this exhilarating and scintillating world of Sports and Games at our place. Our ISM, your battlefield. To one of the biggest sporting event in East India, to the culture.
+Let your Parakram reach the zenith of its survival, the year of 2013, ISM. This PARAKRAM, Let the games begin.
+Parakram is Our Annual Sports Meet, conducted at the Inter-College level, organised by the very own students of ISM. A 3-day extravaganza, Parakram, is not our definition of sports, we don’t wish to; Parakram is an honour to the oldest trait of human survival. The platform sets every year in the month of February, at Indian School of Mines, Dhanbad, Jharkhand. Our comprehensive organisation peeks from the fact that the sports included are Cricket, Basketball, Football, Tennis, Table-Tennis, Squash, Volleyball, Badminton, Athletics, Gymnastics. Besides the core sporting events, there are always the other, but never minor, events like Sports Quiz and other Fun-filled stakeouts. So, this winter, come join us in the city of Dhanbad, flex your muscles and we promise that you will be challenged to your last breath and any preconceived notion about what it takes to be an athlete will be put to test.
+ 
+<h4>EVENTS</h4>
+<ul type="disc">
+<li>Cricket</li>
+<li>Football</li>
+<li>Volleyball</li>
+<li>Basketball</li>
+<li>Lawn Tennis</li>
+<li>Table Tennis</li>
+<li>Chess</li>
+<li>Carrom</li>
+<li>Swimming</li>
+<li>Athletics</li>
+<li>Yoga</li>
+<li>Badminton</li>
+<li>Squash</li>
+<li>Martial Arts</li>
+<li>Over Night Gaming</li>
+</ul>
+</div>
+</div>
+
+<!--Pratibimb-->
+<div id="about_pratibimb" class="droppable main_body">
+<div class="to-color">
+<h1 align="center">Pratibimb</h1>
+<p>Pratibimb, the annual three-day inter-departmental cultural competition is held in January. The departments are categorized into clusters. Various events are organized, naming a few: Hindi and English vocals, instrumentals, dance, mime , skits, debates, quizzes, dumb-charades, fashion show, street plays and Antakshari. Musical nights, DJ nights, and Kavi Sammelans also form a part of ISM culture. Other features are the events of painting exhibitions, and Yoga workshops. </p>
+</div>
+</div>
+
+<!--Faculty-->
+<div id="disp_faculty" class="droppable main_body">
+<div class="to-color">
+	<h1 align="center"><u>Faculty</u></h1>
+    <div id="faculty_select" style="position:absolute; top:10%;">
+    <a href="#" id="sec_1" class="fac_sel">1</a>&nbsp;
+    <a href="#" id="sec_2" class="fac_sel">2</a>&nbsp;
+    <a href="#" id="sec_3" class="fac_sel">3</a>&nbsp;
+    <a href="#" id="sec_4" class="fac_sel">4</a>&nbsp;
+    <a href="#" id="sec_5" class="fac_sel">5</a>&nbsp;
+    <a href="#" id="sec_6" class="fac_sel">6</a>&nbsp;
+    <a href="#" id="sec_7" class="fac_sel">7</a>&nbsp;
+    <a href="#" id="sec_8" class="fac_sel">8</a>&nbsp;
+    <a href="#" id="sec_9" class="fac_sel">9</a>&nbsp;
+    <a href="#" id="sec_10" class="fac_sel">10</a>&nbsp;
+    </div>
+   <!-- <table align="center" id="fac">
+    
+    
+    
+    </table>-->
+    <div id="test" style="position:absolute; top:14%;"></div>
+
+</div>
+</div><!--Faculty-->
+
+
+</div><!--of written content-->
+
+
+</div><!-- of container_content-->
+
+
+<!--Upper FilmStrip -->
+<div id="top_thumb" class="photostrip">
+<a href="#"><img src="images/slideshow/1.jpg" style="position:absolute; height:100%; width:auto; left:2%;" class="image_thumbnail"  title="ISM"/></a>
+<a href="#"><img src="images/slideshow/2.jpg" style="position:absolute; height:100%; width:auto; left:12%;" class="image_thumbnail" title="Heritage Building Side View"/></a>
+<a href="#"><img src="images/slideshow/3.jpg" style="position:absolute; height:100%; width:auto; left:22%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/4.jpg" style="position:absolute; height:100%; width:auto; left:32%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/5.jpg" style="position:absolute; height:100%; width:auto; left:42%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/6.jpg" style="position:absolute; height:100%; width:auto; left:52%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/7.jpg" style="position:absolute; height:100%; width:auto; left:62%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/8.jpg" style="position:absolute; height:100%; width:auto; left:72%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/9.jpg" style="position:absolute; height:100%; width:auto; left:82%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/10.jpg" style="position:absolute; height:100%; width:auto; left:92%;" class="image_thumbnail" /></a>
+
+</div>
+<!--Lower Film Strip--> 
+<div id="bottom_thumb" class="photostrip">
+<a href="#"><img src="images/slideshow/11.jpg" style="position:absolute; height:100%; width:auto; left:2%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/12.jpg" style="position:absolute; height:100%; width:auto; left:12%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/13.jpg" style="position:absolute; height:100%; width:auto; left:22%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/14.jpg" style="position:absolute; height:100%; width:auto; left:32%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/15.jpg" style="position:absolute; height:100%; width:auto; left:42%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/16.jpg" style="position:absolute; height:100%; width:auto; left:52%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/17.jpg" style="position:absolute; height:100%; width:auto; left:62%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/18.jpg" style="position:absolute; height:100%; width:auto; left:72%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/19.jpg" style="position:absolute; height:100%; width:auto; left:82%;" class="image_thumbnail" /></a>
+<a href="#"><img src="images/slideshow/default.jpg" style="position:absolute; height:100%; width:auto; left:92%;" class="image_thumbnail" /></a>
+
+
+</div>
+
+<!-- Division where photos will be displayed-->
+<div id="photoview_div">
+<div id="image_view" style="margin-top:0.5%; margin-bottom:0.5%;">
+<img id="image_show_area" src="images/slideshow/default.jpg" />
+</div>
+
+</div>
+
+<!--The Arrow to be displayed at right to display the photo frame -->
+<div id="right_popout_button" class="popout">
+
+<img src="images/right_popout_arrow.png" style="position:absolute; width:100%; top:37.5%;" />
+<!-- The right popout to be displayed with options for photo frame-->
+<div id="right_popout">
+
+<a href="#"><img src="images/galllery.png" id="gallery_icon" /></a>
+</div>
+
+</div>
+
+
+
+
+</div><!-- of container-->
+
+
+
+
+
+<!--Bottom Ribbon-->
+<div id="bottom_ribbon" class="allow-here"> 
+<img src="images/bottom_ribbon_arrow.png" style="position:absolute; height:100%; left:48%; z-index:999; opacity:0.6;" id="bottom_popout" />
+<!--<img src="images/right_popout_arrow.png" id="lower_ribbon_expand" style="position:absolute; left:50%; height:100%; width:auto; transform:rotate(90);" />-->
+<marquee direction="right" behavior="alternate" bgcolor="" style="position:absolute; width:90%; height:100%;" id="lower_ribbon_expand"><font face="Lucida Sans Unicode, Lucida Grande, sans-serif">Details <small><small>(For best experience use Google Chrome)</small></small></font></marquee><div id="copyright" style="position:absolute; right:1%;">&copy;Jazzy-Architects</div>
+<span id="written_expanded">
+<div id="contact_bottom" class="bottom_details" style="position:absolute; width:20%; padding-left:2%;">
+<h2>Contact Us</h2>
+Indian School of Mines<br />
+Dhanbad – 826004, Jharkhand, India<br />
+Phone : +91-326- 2235001-2235004,<br />
+Fax : +91-326-2296563<br />
+<a href="http://ismdhanbad.ac.in/about/TD.pdf" target="_blank" style="color:white;">Complete Telephone Directory</a>
+</div>
+<div id="weather" style="position:absolute; left:25%; width:auto; height:100%; top:25%;">
+<p style="display: block !important; width: 160px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://weathertemperature.com/forecast/?q=Dhanbad,Jharkhand,India" title="Dhanbad, Jharkhand, India Weather Forecast" onclick="this.target='_blank'"><img src="http://widget.addgadgets.com/weather/v1/?q=Dhanbad,Jharkhand,India&amp;s=2&amp;u=1" alt="Weather temperature in Dhanbad, Jharkhand, India" width="100%" height="100%" style="border:0" /></a><br /></p>
+</div>
+<div id="feedback" style="position:absolute; right:0%; width:auto; height:100%; top:25%; padding-right:2%;"><center>
+<a href="#" id="feedback_link" style="color:#FFF">Feedback</a><br /><br />
+
+<a href="http://mail.ismdhanbad.ac.in/bizmail/login" target="_blank" style="color:#FFF">Email</a>
+</center>
+</div>
+</span>
+</div><!--Bottom Ribbon-->
+
+</body>
+</html>

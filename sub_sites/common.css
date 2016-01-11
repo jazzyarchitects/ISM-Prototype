@@ -1,0 +1,50 @@
+body
+{
+/*background-image:url(../images/1.jpg);
+/*background-repeat:no-repeat;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+background-size: 100%;*/
+margin:5%;
+background:#000045;
+font-family: 'Trebuchet MS', Arial;
+}
+h1
+{
+font-size:200%;
+text-align:center;
+color:#127fe3;
+}
+
+img
+{
+border-style:solid;
+border-width:0 20px 0 0;
+border-color: transparent;
+}
+#sub_sec
+{
+font-weight: bold;
+background: -webkit-linear-gradient(180deg, #cebbfc, #ffffff); /* For Safari */
+background: -o-linear-gradient(180deg, #cebbfc, #ffffff); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(180deg, #cebbfc, #ffffff); /* For Firefox 3.6 to 15 */
+background: linear-gradient(180deg, #cebbfc, #ffffff);
+font-variant:small-caps;
+border-style:groove; 
+border-width:4px;
+box-shadow: 5px 5px 2px #908ef0;
+-webkit-border-radius:25px;
+-moz-border-radius:25px;
+border-radius:25px;
+padding:15px 0px 10px 25px;
+opacity:1;
+font-style:oblique;
+font-family: 'Trebuchet MS', Arial;
+}
+#info
+{
+font-variant:normal;
+font-size:20px;
+}

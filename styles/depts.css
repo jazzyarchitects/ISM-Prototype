@@ -1,0 +1,98 @@
+/*body{
+margin:5%;
+background: -webkit-linear-gradient(0deg, #ebf7ff, #ffffff, #ebf7ff); 
+background: -o-linear-gradient(0deg, #ebf7ff, #ffffff, #ebf7ff); 
+background: -moz-linear-gradient(0deg, #ebf7ff, #ffffff, #ebf7ff);
+background: linear-gradient(0deg, #ebf7ff, #ffffff, #ebf7ff);
+}*/
+#depts > div > h1, #depts > div > h2, #centre > h2
+{
+font-size:200%;
+text-align:center;
+color:#FEFEFE;
+}
+/*h2
+{
+font-size:200%;
+text-align:center;
+}*/
+#depts
+{
+border-style: inset;
+border-color: #127fe3 #1208ba;
+border-width:1%;
+/*border-radius:44px;*/
+top:0.025%;
+height:99.5%;
+width:99%;
+background:#333333;
+}
+#depts_in
+{
+border-style: outset;
+border-color:#1208ba #127fe3 ;
+border-width:1%;
+/*border-radius:3%;*/
+
+}
+#left_div
+{
+padding:2%;
+width:40%;
+position:absolute;
+line-height:200%;
+}
+#right_div
+{
+margin-left:50%;
+padding:2%;
+line-height:200%;
+width:45%;
+}
+#centre
+{
+padding:2%;
+}
+/*img
+{
+float:left;
+}*/
+#depts > div > div > p, #centre > div > p{
+font-weight: bold;
+background: -webkit-linear-gradient(180deg, #cebbfc, #ffffff); /* For Safari */
+background: -o-linear-gradient(180deg, #cebbfc, #ffffff); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(180deg, #cebbfc, #ffffff); /* For Firefox 3.6 to 15 */
+/*background: linear-gradient(180deg, #cebbfc, #ffffff);*/
+background:linear-gradient(180deg, #121F5A,#0B0C17);
+font-variant:small-caps;
+border-style:groove; 
+border-width:4px;
+height:100%;
+overflow:hidden;
+box-shadow: 5px 5px 2px #908ef0;
+border-radius:25px;
+padding:15px 0px 10px 25px;
+opacity:1;
+font-style:oblique;
+font-family: 'Trebuchet MS', Arial;
+/*word-wrap:normal;*/
+}
+#yo
+{
+font-size: 30px;
+
+}
+#yo > a:link{color:#a34af7;}
+#yo > a:visited {color:#250fb3 ;}
+#yo > a:hover {color:#990000;}
+#yo > a
+{
+text-decoration:none;
+}
+#yo > a{
+	left:auto;
+}
+
+#depts > div > div > p > span > img {
+	padding:1% 1%;
+}
